@@ -6,9 +6,41 @@
     <description>Recent content on Jörn Ahrens - Android Developer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sun, 22 Dec 2019 17:22:28 +0100</lastBuildDate>
     
 	<atom:link href="https://android.joernahrens.de/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Contact</title>
+      <link>https://android.joernahrens.de/contact/</link>
+      <pubDate>Sun, 22 Dec 2019 17:22:28 +0100</pubDate>
+      
+      <guid>https://android.joernahrens.de/contact/</guid>
+      <description>Imprint Jörn Ahrens
+Quickborner Straße 72 h
+22844 Norderstedt
+Let&#39;s talk Phone: 0176 23497907
+Mail: mail@joernahrens.de</description>
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>https://android.joernahrens.de/about/</link>
+      <pubDate>Sun, 22 Dec 2019 17:05:58 +0100</pubDate>
+      
+      <guid>https://android.joernahrens.de/about/</guid>
+      <description>CV  Born in Hamburg Having worked as Developer, Architect and Team Lead professionally since 2005 Started with backend development, focused Android Development since ~2009  Apps I&#39;ve worked on  Sparkasse StarMoney A couple of banking white label solutions based on these 2 Jimdo Creator Jimdo Live Chat Jimdo Boost COYO Engage  </description>
+    </item>
+    
+    <item>
+      <title>Bla</title>
+      <link>https://android.joernahrens.de/posts/my-first-post/</link>
+      <pubDate>Sun, 22 Dec 2019 16:55:45 +0100</pubDate>
+      
+      <guid>https://android.joernahrens.de/posts/my-first-post/</guid>
+      <description>Hi! This is a test</description>
+    </item>
     
   </channel>
 </rss>

@@ -3,15 +3,53 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://android.joernahrens.de/categories/</loc>
+    <loc>https://android.joernahrens.de/contact/</loc>
+    <lastmod>2019-12-22T17:22:28+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://android.joernahrens.de/</loc>
+    <lastmod>2019-12-22T17:22:28+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://android.joernahrens.de/about/</loc>
+    <lastmod>2019-12-22T17:05:58+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://android.joernahrens.de/tags/android/</loc>
+    <lastmod>2019-12-22T16:55:45+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://android.joernahrens.de/posts/my-first-post/</loc>
+    <lastmod>2019-12-22T16:55:45+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://android.joernahrens.de/categories/</loc>
+    <lastmod>2019-12-22T16:55:45+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://android.joernahrens.de/categories/default/</loc>
+    <lastmod>2019-12-22T16:55:45+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://android.joernahrens.de/posts/</loc>
+    <lastmod>2019-12-22T16:55:45+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://android.joernahrens.de/tags/</loc>
+    <lastmod>2019-12-22T16:55:45+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://android.joernahrens.de/tags/tdd/</loc>
+    <lastmod>2019-12-22T16:55:45+01:00</lastmod>
   </url>
   
 </urlset>
