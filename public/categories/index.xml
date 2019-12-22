@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Jörn Ahrens - Android Developer</title>
-    <link>https://android.joernahrens.de/categories/</link>
-    <description>Recent content in Categories on Jörn Ahrens - Android Developer</description>
+    <title>Categories on Jörn Ahrens</title>
+    <link>https://joernahrens.netlify.com/categories/</link>
+    <description>Recent content in Categories on Jörn Ahrens</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 22 Dec 2019 16:55:45 +0100</lastBuildDate>
     
-	<atom:link href="https://android.joernahrens.de/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://joernahrens.netlify.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Default</title>
-      <link>https://android.joernahrens.de/categories/default/</link>
+      <link>https://joernahrens.netlify.com/categories/default/</link>
       <pubDate>Sun, 22 Dec 2019 16:55:45 +0100</pubDate>
       
-      <guid>https://android.joernahrens.de/categories/default/</guid>
+      <guid>https://joernahrens.netlify.com/categories/default/</guid>
       <description></description>
     </item>
     

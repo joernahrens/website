@@ -1,27 +1,30 @@
 baseURL = "https://joernahrens.netlify.com/"
 languageCode = "en-us"
-title = "Jörn Ahrens - Android Developer"
+title = "Jörn Ahrens"
 
-theme = "coder-portfolio" # Set the theme.
+theme = "hermit" # Set the theme.
 defaultcontentlanguage = "en" # The default content language.
 
-paginate = 20 # Default number of pages per page in pagination.
-
-pygmentsstyle = "b2" # Color-theme or style for syntax highlighting.
-pygmentscodefences = true # Enable code fence background highlighting.
-pygmentscodefencesguesssyntax = true # Enable syntax guessing for code fences without specified language.
-pygmentsUseClasses = true # new add
-
-#disqusShortname = "yourdiscussshortname" # Enable or disable Disqus.
+[taxonomies]
+  tag = "tags"
+  # Categories are disabled by default.
 
 [params] # theme parameters
-    author = "Jörn Ahrens" # Author's name.
-    info = "Android Developer" # Author's job title or info.
-    description = "Jörn Ahrens' personal website" # Site description.
-    keywords = "blog,developer,personal,android,software" # Site keywords.
-    avatarurl = "images/avatar.png" # Contain the path of the optional avatar in the static folder.
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
 
-    footercontent = "Enter a text here." # Add footer content
+  themeColor = "#32a852"
+
+  author = "Jörn Ahrens" # Author's name.
+  info = "Android Developer" # Author's job title or info.
+  description = "Jörn Ahrens' personal website" # Site description.
+  keywords = "blog,developer,personal,android,software" # Site keywords.
+  avatarurl = "images/avatar.png" # Contain the path of the optional avatar in the static folder.
+
+  relatedPosts = false  # Add a related content section to all single posts page
+    footercontent = "" # Add footer content
     #fixedbarContent = "Do you want to know me more private?→" # Add fixedbar content
     #fixedbarContentAfter = "Thank You! Please share it if you like it→" # Add fixedbar content after click
 
@@ -55,30 +58,21 @@ pygmentsUseClasses = true # new add
 
 # Social links
 [[params.social]]
-    name = "Github"
-    icon = "fab fa-github"
-    weight = 1
+    name = "github"
     url = "https://github.com/joernahrens/"
-#[[params.social]]
-    #name = "Twitter"
-    #icon = "fab fa-twitter"
-    #weight = 2
-    #url = "https://twitter.com/jayearn/"
 [[params.social]]
-    name = "LinkedIn"
-    icon = "fab fa-linkedin"
-    weight = 3
+    name = "linkedin"
     url = "https://www.linkedin.com/in/j%C3%B6rn-ahrens-398a81b0"
 
 # Menu links
 [[menu.main]]
-    name = "Blog"
-    weight = 1
-    url  = "posts"
-[[menu.main]]
     name = "About"
-    weight = 2
+    weight = 1
     url = "about"
+[[menu.main]]
+    name = "Blog"
+    weight = 2
+    url  = "posts"
 [[menu.main]]
     name = "Contact"
     weight = 3

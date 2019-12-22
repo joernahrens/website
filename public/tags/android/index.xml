@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Android on Jörn Ahrens - Android Developer</title>
-    <link>https://android.joernahrens.de/tags/android/</link>
-    <description>Recent content in Android on Jörn Ahrens - Android Developer</description>
+    <title>Android on Jörn Ahrens</title>
+    <link>https://joernahrens.netlify.com/tags/android/</link>
+    <description>Recent content in Android on Jörn Ahrens</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 22 Dec 2019 16:55:45 +0100</lastBuildDate>
     
-	<atom:link href="https://android.joernahrens.de/tags/android/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://joernahrens.netlify.com/tags/android/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Bla</title>
-      <link>https://android.joernahrens.de/posts/my-first-post/</link>
+      <link>https://joernahrens.netlify.com/posts/my-first-post/</link>
       <pubDate>Sun, 22 Dec 2019 16:55:45 +0100</pubDate>
       
-      <guid>https://android.joernahrens.de/posts/my-first-post/</guid>
+      <guid>https://joernahrens.netlify.com/posts/my-first-post/</guid>
       <description>Hi! This is a test</description>
     </item>
     
