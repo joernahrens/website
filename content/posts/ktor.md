@@ -2,14 +2,14 @@
 title: "Ktor - Server Framework"
 date: 2018-01-26T19:36:50+01:00
 draft: false
-toc: false
+toc: true
 images:
 tags: 
   - Kotlin
   - Backend
 ---
 
-Just wanted to note ktor, a really nice kotlin framework to easily create server applications. Defining a REST API looks for example like this:
+Just wanted to note ktor, a really nice kotlin framework to easily create server applications. For example, defining a REST API, looks as simple as this:
 
 ```
 install(Routing) {
@@ -28,4 +28,4 @@ install(Routing) {
     }
 }
 ```
-Check <a href="http://ktor.io/">the website</a> or the <a href="https://github.com/ktorio/ktor">github page</a>.
+Check [their website](http://ktor.io/) or the [github page](https://github.com/ktorio/ktor)
