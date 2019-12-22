@@ -1,5 +1,5 @@
 prepare:
-	git submodule add -f https://github.com/naro143/hugo-coder-portfolio themes/coder-portfolio
+	git submodule add -f https://github.com/joernahrens/hugo-coder-portfolio themes/coder-portfolio
 	git submodule init themes/coder-portfolio
 	git submodule update themes/coder-portfolio
 
