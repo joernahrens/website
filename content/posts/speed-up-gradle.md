@@ -1,6 +1,6 @@
 ---
 title: "6 tips to speed up your Gradle build"
-date: 2019-12-22T19:50:18+01:00
+date: 2016-02-27T09:50:18+01:00
 draft: false
 toc: true
 images:
