@@ -1,0 +1,85 @@
+baseURL = "https://android.joernahrens.de/"
+languageCode = "en-us"
+title = "Jörn Ahrens - Android Developer"
+
+theme = "coder-portfolio" # Set the theme.
+defaultcontentlanguage = "en" # The default content language.
+
+paginate = 20 # Default number of pages per page in pagination.
+
+pygmentsstyle = "b2" # Color-theme or style for syntax highlighting.
+pygmentscodefences = true # Enable code fence background highlighting.
+pygmentscodefencesguesssyntax = true # Enable syntax guessing for code fences without specified language.
+pygmentsUseClasses = true # new add
+
+#disqusShortname = "yourdiscussshortname" # Enable or disable Disqus.
+
+[params] # theme parameters
+    author = "Jörn Ahrens" # Author's name.
+    info = "Android Developer" # Author's job title or info.
+    description = "Jörn Ahrens' personal website" # Site description.
+    keywords = "blog,developer,personal,android,software" # Site keywords.
+    avatarurl = "images/avatar.png" # Contain the path of the optional avatar in the static folder.
+
+    footercontent = "Enter a text here." # Add footer content
+    #fixedbarContent = "Do you want to know me more private?→" # Add fixedbar content
+    #fixedbarContentAfter = "Thank You! Please share it if you like it→" # Add fixedbar content after click
+
+    # Whether you want to hide copyright and credits in the footer.
+    hideCredits = false
+    hideCopyright = false
+
+    # Custom CSS
+    custom_css = []
+
+    # Alignment of Mobile Menu items
+    itemscentered = true
+
+    # RTL support
+    rtl = false
+
+    # Bottom sns share
+    snsShare = true # new add
+    # Popular sns share
+    # if you want add sns. please message!
+    enableTwitterShare = true  # new add
+    enableFacebookShare = true # new add
+    enableHatenaShare = false   # new add
+    enableLineShare = false     # new add
+    enableLinkedInShare = true # new add
+
+    thumbnail = "images/tn.png" # default sns thumbnail
+
+    # Multilanguage mode
+    langseparator = "|" # Separates menus from language selectors when site is multilingual.
+
+# Social links
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github"
+    weight = 1
+    url = "https://github.com/joernahrens/"
+#[[params.social]]
+    #name = "Twitter"
+    #icon = "fab fa-twitter"
+    #weight = 2
+    #url = "https://twitter.com/jayearn/"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin"
+    weight = 3
+    url = "https://www.linkedin.com/in/j%C3%B6rn-ahrens-398a81b0"
+
+# Menu links
+[[menu.main]]
+    name = "Blog"
+    weight = 1
+    url  = "posts"
+[[menu.main]]
+    name = "About"
+    weight = 2
+    url = "about"
+[[menu.main]]
+    name = "Contact"
+    weight = 3
+    url = "contact"
