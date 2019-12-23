@@ -2,7 +2,7 @@ build: prepare
 	hugo
 
 prepare:
-	git submodule update themes/hermit
+	git submodule update --init themes/hermit
 
 run:
 	hugo server -D

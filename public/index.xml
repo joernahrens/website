@@ -2,21 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jörn Ahrens</title>
-    <link>https://joernahrens.netlify.com/</link>
+    <link>https://blog.joernahrens.de/</link>
     <description>Recent content on Jörn Ahrens</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Dec 2019 17:22:28 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 23 Dec 2019 13:55:15 +0100</lastBuildDate>
     
-	<atom:link href="https://joernahrens.netlify.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.joernahrens.de/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>A couple of scripts for Emulator in the CI system</title>
+      <link>https://blog.joernahrens.de/posts/genymotion-to-emulator/</link>
+      <pubDate>Mon, 23 Dec 2019 13:55:15 +0100</pubDate>
+      
+      <guid>https://blog.joernahrens.de/posts/genymotion-to-emulator/</guid>
+      <description>Follow this path: Our Journey from Genymotion to the Android Emulator
+This contains a couple of useful scripts to automate AVD management and such.</description>
+    </item>
+    
+    <item>
       <title>Contact</title>
-      <link>https://joernahrens.netlify.com/contact/</link>
+      <link>https://blog.joernahrens.de/contact/</link>
       <pubDate>Sun, 22 Dec 2019 17:22:28 +0100</pubDate>
       
-      <guid>https://joernahrens.netlify.com/contact/</guid>
+      <guid>https://blog.joernahrens.de/contact/</guid>
       <description>Imprint Jörn Ahrens
 Quickborner Straße 72 h
 22844 Norderstedt
@@ -26,20 +36,102 @@ Mail: mail@joernahrens.de</description>
     
     <item>
       <title>About me</title>
-      <link>https://joernahrens.netlify.com/about/</link>
+      <link>https://blog.joernahrens.de/about/</link>
       <pubDate>Sun, 22 Dec 2019 17:05:58 +0100</pubDate>
       
-      <guid>https://joernahrens.netlify.com/about/</guid>
+      <guid>https://blog.joernahrens.de/about/</guid>
       <description>CV  Born in Hamburg Having worked as Developer, Architect and Team Lead professionally since 2005 Started with backend development, focused Android Development since ~2009  Apps I&#39;ve worked on  Sparkasse StarMoney A couple of banking white label solutions based on these 2 Jimdo Creator Jimdo Live Chat Jimdo Boost COYO Engage  </description>
     </item>
     
     <item>
-      <title>Bla</title>
-      <link>https://joernahrens.netlify.com/posts/my-first-post/</link>
-      <pubDate>Sun, 22 Dec 2019 16:55:45 +0100</pubDate>
+      <title>Android Screenshot Script</title>
+      <link>https://blog.joernahrens.de/posts/android-screenshot-script/</link>
+      <pubDate>Mon, 19 Mar 2018 20:51:41 +0100</pubDate>
       
-      <guid>https://joernahrens.netlify.com/posts/my-first-post/</guid>
-      <description>Hi! This is a test</description>
+      <guid>https://blog.joernahrens.de/posts/android-screenshot-script/</guid>
+      <description>Currently I&#39;m trying a lot of automated UI testing on emulators.
+This could be really helpful in the near future:
+adb-screenshot.sh</description>
+    </item>
+    
+    <item>
+      <title>Ktor - Server Framework</title>
+      <link>https://blog.joernahrens.de/posts/ktor/</link>
+      <pubDate>Fri, 26 Jan 2018 19:36:50 +0100</pubDate>
+      
+      <guid>https://blog.joernahrens.de/posts/ktor/</guid>
+      <description>Just wanted to note ktor, a really nice kotlin framework to easily create server applications. For example, defining a REST API, looks as simple as this:
+install(Routing) { get(&amp;quot;/foo&amp;quot;) { call.respondText(&amp;quot;bar&amp;quot;) } route(&amp;quot;api&amp;quot;) { intercept(ApplicationCallPipeline.Infrastructure) { AuthCheckInterceptor.intercept(this) } route(&amp;quot;cars&amp;quot;) { get { ListCarsHandler().doIt(this) } } } } Check their website or the github page</description>
+    </item>
+    
+    <item>
+      <title>Dart Client Generator for swagger</title>
+      <link>https://blog.joernahrens.de/posts/dart-swagger/</link>
+      <pubDate>Tue, 23 Jan 2018 20:42:54 +0100</pubDate>
+      
+      <guid>https://blog.joernahrens.de/posts/dart-swagger/</guid>
+      <description>I&#39;m really proud that I successfully did my first open-source contribution to a &amp;ldquo;relevant&amp;rdquo; project. While trying to create a swagger client library for the dart language, I noticed, that the generated code wasn&#39;t working for Flutter. The reason for this is the lack of dart:mirrors support in the flutter framework. The generated code was using dartson which relies on dart:mirrors.
+I reworked the dart client that it doesn&#39;t rely on dartson, but works without any further dependencies (pull request).</description>
+    </item>
+    
+    <item>
+      <title>Git Aliases</title>
+      <link>https://blog.joernahrens.de/posts/git-aliases/</link>
+      <pubDate>Tue, 23 Jan 2018 20:39:12 +0100</pubDate>
+      
+      <guid>https://blog.joernahrens.de/posts/git-aliases/</guid>
+      <description>Shell aliases $ alias | grep git alias delete-merged-branches=&#39;git branch --merged | grep -v &#39;\&#39;&#39;\*&#39;\&#39;&#39; | xargs -n 1 git branch -d&#39; alias g=&#39;git status&#39; alias gcam=&#39;git commit -am&#39; alias gd=&#39;git diff&#39; alias gf=&#39;git fetch&#39; alias git=&#39;hub&#39; alias gl=&#39;git pull --prune&#39; alias gp=&#39;git push&#39; alias gpoh=&#39;git push -u origin HEAD&#39; alias gpr=&#39;git pull-request&#39; git aliases [alias] co = checkout please = push --force-with-lease amend = commit --amend --no-edit unstage = reset - </description>
+    </item>
+    
+    <item>
+      <title>Bash get current directory</title>
+      <link>https://blog.joernahrens.de/posts/bash-current-dir/</link>
+      <pubDate>Thu, 30 Mar 2017 22:35:51 +0100</pubDate>
+      
+      <guid>https://blog.joernahrens.de/posts/bash-current-dir/</guid>
+      <description>Bash, get directory where the script is located:
+SCRIPT_SRC_DIR=&amp;quot;$( cd &amp;quot;$( dirname &amp;quot;${BASH_SOURCE[0]}&amp;quot; )&amp;quot; &amp;amp;&amp;amp; pwd )&amp;quot; </description>
+    </item>
+    
+    <item>
+      <title>Create an AVD from CLI</title>
+      <link>https://blog.joernahrens.de/posts/avd-from-commandline/</link>
+      <pubDate>Wed, 15 Mar 2017 10:55:59 +0100</pubDate>
+      
+      <guid>https://blog.joernahrens.de/posts/avd-from-commandline/</guid>
+      <description>I always struggle googling this, so that&#39;s why it&#39;s here for my future me:
+$ ~/.android-sdk/tools/android create avd -n api-22 --target &amp;quot;Google Inc.:Google APIs:22&amp;quot; -b google_apis/x86_64 --force -c 512M -s 720x1280 $ echo &amp;quot;disk.dataPartition.size=1024MB&amp;quot; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;quot;hw.lcd.density=280&amp;quot; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;quot;hw.ramSize=1536&amp;quot; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;quot;hw.keyboard=yes&amp;quot; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;quot;showDeviceFrame=no&amp;quot; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;quot;skin.dynamic=yes&amp;quot; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;quot;skin.path=_no_skin&amp;quot; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;quot;skin.path.backup=_no_skin&amp;quot; &amp;gt;&amp;gt; ~/.</description>
+    </item>
+    
+    <item>
+      <title>6 tips to speed up your Gradle build</title>
+      <link>https://blog.joernahrens.de/posts/speed-up-gradle/</link>
+      <pubDate>Sat, 27 Feb 2016 09:50:18 +0100</pubDate>
+      
+      <guid>https://blog.joernahrens.de/posts/speed-up-gradle/</guid>
+      <description>Some helpful tips. And additionally try --offline..
+6 tips to speed up your Gradle build</description>
+    </item>
+    
+    <item>
+      <title>Change isn&#39;t free</title>
+      <link>https://blog.joernahrens.de/posts/change-isnt-free/</link>
+      <pubDate>Sun, 01 Nov 2015 19:44:27 +0100</pubDate>
+      
+      <guid>https://blog.joernahrens.de/posts/change-isnt-free/</guid>
+      <description>http://www.mountaingoatsoftware.com/blog/change-isnt-free</description>
+    </item>
+    
+    <item>
+      <title>PO and technical debt</title>
+      <link>https://blog.joernahrens.de/posts/po-tech-debt/</link>
+      <pubDate>Thu, 29 Oct 2015 19:41:53 +0100</pubDate>
+      
+      <guid>https://blog.joernahrens.de/posts/po-tech-debt/</guid>
+      <description>Nice read:
+http://www.agileadvice.com/2015/10/24/howtoapplyagile/question-product-owner-and-technical-debt/
+ As a product owner, what are the best ways to record technical debt and what are some approaches to prioritizing that work amid the continuous delivery of working software?
+ </description>
     </item>
     
   </channel>
