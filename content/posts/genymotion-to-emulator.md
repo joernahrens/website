@@ -1,5 +1,5 @@
 ---
-title: "Genymotion to Emulator"
+title: "A couple of scripts for Emulator in the CI system"
 date: 2019-12-23T13:55:15+01:00
 draft: false
 toc: false
