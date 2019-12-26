@@ -5,7 +5,7 @@ theme = "hermit" # Set the theme.
 defaultcontentlanguage = "en" # The default content language.
 
 [taxonomies]
-  tag = "android, development, software, developer"
+  tag = "tags"
   # Categories are disabled by default.
 
 [params] # theme parameters
@@ -17,8 +17,7 @@ defaultcontentlanguage = "en" # The default content language.
   themeColor = "#32a852"
 
   author = "Jörn Ahrens" # Author's name.
-  info = "Android Developer" # Author's job title or info.
-  homeSubtitle = "Coffee lover and passionate android developer."
+  homeSubtitle = "Android developer since Cupcake"
 
   relatedPosts = true  # Add a related content section to all single posts page
 
