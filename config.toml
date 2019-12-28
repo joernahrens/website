@@ -1,4 +1,4 @@
-baseURL = "https://blog.joernahrens.de/"
+baseURL = ""
 languageCode = "en-us"
 title = "Jörn Ahrens"
 theme = "hermit" # Set the theme.
