@@ -43,12 +43,12 @@ defaultcontentlanguage = "en" # The default content language.
 [[menu.main]]
     name = "Blog"
     weight = 1
-    url  = "posts"
+    url  = "/posts"
 [[menu.main]]
     name = "About"
     weight = 2
-    url = "about"
+    url = "/about"
 [[menu.main]]
     name = "Contact"
     weight = 3
-    url = "contact"
+    url = "/contact"
