@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bash on Jörn Ahrens</title>
+    <link>https://blog.joernahrens.de/tags/bash/</link>
+    <description>Recent content in Bash on Jörn Ahrens</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 30 Mar 2017 22:35:51 +0100</lastBuildDate>
+    
+	<atom:link href="https://blog.joernahrens.de/tags/bash/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bash get current directory</title>
+      <link>https://blog.joernahrens.de/posts/bash-current-dir/</link>
+      <pubDate>Thu, 30 Mar 2017 22:35:51 +0100</pubDate>
+      
+      <guid>https://blog.joernahrens.de/posts/bash-current-dir/</guid>
+      <description>Bash, get directory where the script is located:
+SCRIPT_SRC_DIR=&amp;quot;$( cd &amp;quot;$( dirname &amp;quot;${BASH_SOURCE[0]}&amp;quot; )&amp;quot; &amp;amp;&amp;amp; pwd )&amp;quot; </description>
+    </item>
+    
+  </channel>
+</rss>

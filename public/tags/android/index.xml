@@ -2,22 +2,54 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Android on Jörn Ahrens</title>
-    <link>https://joernahrens.netlify.com/tags/android/</link>
+    <link>https://blog.joernahrens.de/tags/android/</link>
     <description>Recent content in Android on Jörn Ahrens</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Dec 2019 16:55:45 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 23 Dec 2019 13:55:15 +0100</lastBuildDate>
     
-	<atom:link href="https://joernahrens.netlify.com/tags/android/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.joernahrens.de/tags/android/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Bla</title>
-      <link>https://joernahrens.netlify.com/posts/my-first-post/</link>
-      <pubDate>Sun, 22 Dec 2019 16:55:45 +0100</pubDate>
+      <title>A couple of scripts for Emulator in the CI system</title>
+      <link>https://blog.joernahrens.de/posts/genymotion-to-emulator/</link>
+      <pubDate>Mon, 23 Dec 2019 13:55:15 +0100</pubDate>
       
-      <guid>https://joernahrens.netlify.com/posts/my-first-post/</guid>
-      <description>Hi! This is a test</description>
+      <guid>https://blog.joernahrens.de/posts/genymotion-to-emulator/</guid>
+      <description>Follow this path: Our Journey from Genymotion to the Android Emulator
+This contains a couple of useful scripts to automate AVD management and such.</description>
+    </item>
+    
+    <item>
+      <title>Android Screenshot Script</title>
+      <link>https://blog.joernahrens.de/posts/android-screenshot-script/</link>
+      <pubDate>Mon, 19 Mar 2018 20:51:41 +0100</pubDate>
+      
+      <guid>https://blog.joernahrens.de/posts/android-screenshot-script/</guid>
+      <description>Currently I&#39;m trying a lot of automated UI testing on emulators.
+This could be really helpful in the near future:
+adb-screenshot.sh</description>
+    </item>
+    
+    <item>
+      <title>Create an AVD from CLI</title>
+      <link>https://blog.joernahrens.de/posts/avd-from-commandline/</link>
+      <pubDate>Wed, 15 Mar 2017 10:55:59 +0100</pubDate>
+      
+      <guid>https://blog.joernahrens.de/posts/avd-from-commandline/</guid>
+      <description>I always struggle googling this, so that&#39;s why it&#39;s here for my future me:
+$ ~/.android-sdk/tools/android create avd -n api-22 --target &amp;quot;Google Inc.:Google APIs:22&amp;quot; -b google_apis/x86_64 --force -c 512M -s 720x1280 $ echo &amp;quot;disk.dataPartition.size=1024MB&amp;quot; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;quot;hw.lcd.density=280&amp;quot; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;quot;hw.ramSize=1536&amp;quot; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;quot;hw.keyboard=yes&amp;quot; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;quot;showDeviceFrame=no&amp;quot; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;quot;skin.dynamic=yes&amp;quot; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;quot;skin.path=_no_skin&amp;quot; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;quot;skin.path.backup=_no_skin&amp;quot; &amp;gt;&amp;gt; ~/.</description>
+    </item>
+    
+    <item>
+      <title>6 tips to speed up your Gradle build</title>
+      <link>https://blog.joernahrens.de/posts/speed-up-gradle/</link>
+      <pubDate>Sat, 27 Feb 2016 09:50:18 +0100</pubDate>
+      
+      <guid>https://blog.joernahrens.de/posts/speed-up-gradle/</guid>
+      <description>Some helpful tips. And additionally try --offline..
+6 tips to speed up your Gradle build</description>
     </item>
     
   </channel>
