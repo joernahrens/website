@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dart on Jörn Ahrens</title>
-    <link>https://blog.joernahrens.de/tags/dart/</link>
+    <link>/tags/dart/</link>
     <description>Recent content in Dart on Jörn Ahrens</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 23 Jan 2018 20:42:54 +0100</lastBuildDate>
     
-	<atom:link href="https://blog.joernahrens.de/tags/dart/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/dart/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Dart Client Generator for swagger</title>
-      <link>https://blog.joernahrens.de/posts/dart-swagger/</link>
+      <link>/posts/dart-swagger/</link>
       <pubDate>Tue, 23 Jan 2018 20:42:54 +0100</pubDate>
       
-      <guid>https://blog.joernahrens.de/posts/dart-swagger/</guid>
+      <guid>/posts/dart-swagger/</guid>
       <description>I&#39;m really proud that I successfully did my first open-source contribution to a &amp;ldquo;relevant&amp;rdquo; project. While trying to create a swagger client library for the dart language, I noticed, that the generated code wasn&#39;t working for Flutter. The reason for this is the lack of dart:mirrors support in the flutter framework. The generated code was using dartson which relies on dart:mirrors.
 I reworked the dart client that it doesn&#39;t rely on dartson, but works without any further dependencies (pull request).</description>
     </item>
