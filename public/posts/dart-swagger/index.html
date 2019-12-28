@@ -20,7 +20,7 @@ I reworked the dart client that it doesn&#39;t rely on dartson, but works withou
 <meta property="og:description" content="I&#39;m really proud that I successfully did my first open-source contribution to a &ldquo;relevant&rdquo; project. While trying to create a swagger client library for the dart language, I noticed, that the generated code wasn&#39;t working for Flutter. The reason for this is the lack of dart:mirrors support in the flutter framework. The generated code was using dartson which relies on dart:mirrors.
 I reworked the dart client that it doesn&#39;t rely on dartson, but works without any further dependencies (pull request)." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://blog.joernahrens.de/posts/dart-swagger/" />
+<meta property="og:url" content="/posts/dart-swagger/" />
 <meta property="article:published_time" content="2018-01-23T20:42:54+01:00" />
 <meta property="article:modified_time" content="2018-01-23T20:42:54+01:00" />
 <meta name="twitter:card" content="summary"/>
@@ -36,7 +36,7 @@ I reworked the dart client that it doesn&#39;t rely on dartson, but works withou
 	<link rel="shortcut icon" href="/favicon.ico">
 
 	<title>Dart Client Generator for swagger</title>
-	<link rel="stylesheet" href="https://blog.joernahrens.de/css/style.min.9cfa4feaf2ab7576db202fabf8378c2441f99cd1c4b1c9b13f814ced9b580cad.css" integrity="sha256-nPpP6vKrdXbbIC+r+DeMJEH5nNHEscmxP4FM7ZtYDK0=" crossorigin="anonymous">
+	<link rel="stylesheet" href="/css/style.min.9cfa4feaf2ab7576db202fabf8378c2441f99cd1c4b1c9b13f814ced9b580cad.css" integrity="sha256-nPpP6vKrdXbbIC+r+DeMJEH5nNHEscmxP4FM7ZtYDK0=" crossorigin="anonymous">
 	
 </head>
 
@@ -45,7 +45,7 @@ I reworked the dart client that it doesn&#39;t rely on dartson, but works withou
 	<header id="site-header" class="animated slideInUp faster">
 		<div class="hdr-wrapper section-inner">
 			<div class="hdr-left">
-				<a href="https://blog.joernahrens.de/">
+				<a href="">
 					<div class="site-avatar">
 						<img id="header-avatar" src="/images/avatar.png" alt="avatar" />
 					</div>
@@ -55,9 +55,9 @@ I reworked the dart client that it doesn&#39;t rely on dartson, but works withou
 				</a>
 				<nav class="site-nav hide-in-mobile">
 					
-				<a href="https://blog.joernahrens.de/posts">Blog</a>
-				<a href="https://blog.joernahrens.de/about">About</a>
-				<a href="https://blog.joernahrens.de/contact">Contact</a>
+				<a href="posts">Blog</a>
+				<a href="about">About</a>
+				<a href="contact">Contact</a>
 
 				</nav>
 			</div>
@@ -68,9 +68,9 @@ I reworked the dart client that it doesn&#39;t rely on dartson, but works withou
 	</header>
 	<div id="mobile-menu" class="animated fast">
 		<ul>
-			<li><a href="https://blog.joernahrens.de/posts">Blog</a></li>
-			<li><a href="https://blog.joernahrens.de/about">About</a></li>
-			<li><a href="https://blog.joernahrens.de/contact">Contact</a></li>
+			<li><a href="posts">Blog</a></li>
+			<li><a href="about">About</a></li>
+			<li><a href="contact">Contact</a></li>
 		</ul>
 	</div>
 
@@ -93,17 +93,17 @@ I reworked the dart client that it doesn&#39;t rely on dartson, but works withou
 			<footer class="post-info">
 				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-feather"><path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"></path><line x1="16" y1="8" x2="2" y2="22"></line><line x1="17.5" y1="15" x2="9" y2="15"></line></svg>Jörn Ahrens</p>
 				<p>
-					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="https://blog.joernahrens.de/tags/dart">Dart</a></span><span class="tag"><a href="https://blog.joernahrens.de/tags/swagger">Swagger</a></span>
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="tags/dart">Dart</a></span><span class="tag"><a href="tags/swagger">Swagger</a></span>
 				</p>
 				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>99 Words</p>
 				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2018-01-23 20:42 &#43;0100</p>
 			</footer>
 		</article>
 		<div class="post-nav thin">
-			<a class="next-post" href="https://blog.joernahrens.de/posts/ktor/">
+			<a class="next-post" href="/posts/ktor/">
 				<span class="post-nav-label"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>&nbsp;Newer</span><br><span>Ktor - Server Framework</span>
 			</a>
-			<a class="prev-post" href="https://blog.joernahrens.de/posts/git-aliases/">
+			<a class="prev-post" href="/posts/git-aliases/">
 				<span class="post-nav-label">Older&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span><br><span>Git Aliases</span>
 			</a>
 		</div>
@@ -112,15 +112,15 @@ I reworked the dart client that it doesn&#39;t rely on dartson, but works withou
 	</main>
 
 	<footer id="site-footer" class="section-inner thin animated fadeIn faster">
-		<p>&copy; 2019 <a href="https://blog.joernahrens.de/"></a></p>
+		<p>&copy; 2019 <a href=""></a></p>
 		<p>
-			Made with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> &#183; Theme <a href="https://github.com/Track3/hermit" target="_blank" rel="noopener">Hermit</a> &#183; <a href="https://blog.joernahrens.de/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
+			Made with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> &#183; Theme <a href="https://github.com/Track3/hermit" target="_blank" rel="noopener">Hermit</a> &#183; <a href="posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
 		</p>
 	</footer>
 
 
 
-	<script src="https://blog.joernahrens.de/js/bundle.min.4a9a0ac3d2217822c7865b4161e6c2a71de1d70492264337755427898dd718f6.js" integrity="sha256-SpoKw9IheCLHhltBYebCpx3h1wSSJkM3dVQniY3XGPY=" crossorigin="anonymous"></script>
+	<script src="/js/bundle.min.4a9a0ac3d2217822c7865b4161e6c2a71de1d70492264337755427898dd718f6.js" integrity="sha256-SpoKw9IheCLHhltBYebCpx3h1wSSJkM3dVQniY3XGPY=" crossorigin="anonymous"></script>
 	
 
 </body>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>git on Jörn Ahrens</title>
-    <link>https://blog.joernahrens.de/tags/git/</link>
+    <link>/tags/git/</link>
     <description>Recent content in git on Jörn Ahrens</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 23 Jan 2018 20:39:12 +0100</lastBuildDate>
     
-	<atom:link href="https://blog.joernahrens.de/tags/git/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/git/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Git Aliases</title>
-      <link>https://blog.joernahrens.de/posts/git-aliases/</link>
+      <link>/posts/git-aliases/</link>
       <pubDate>Tue, 23 Jan 2018 20:39:12 +0100</pubDate>
       
-      <guid>https://blog.joernahrens.de/posts/git-aliases/</guid>
+      <guid>/posts/git-aliases/</guid>
       <description>Shell aliases $ alias | grep git alias delete-merged-branches=&#39;git branch --merged | grep -v &#39;\&#39;&#39;\*&#39;\&#39;&#39; | xargs -n 1 git branch -d&#39; alias g=&#39;git status&#39; alias gcam=&#39;git commit -am&#39; alias gd=&#39;git diff&#39; alias gf=&#39;git fetch&#39; alias git=&#39;hub&#39; alias gl=&#39;git pull --prune&#39; alias gp=&#39;git push&#39; alias gpoh=&#39;git push -u origin HEAD&#39; alias gpr=&#39;git pull-request&#39; git aliases [alias] co = checkout please = push --force-with-lease amend = commit --amend --no-edit unstage = reset - </description>
     </item>
     
