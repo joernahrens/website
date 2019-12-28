@@ -5,7 +5,8 @@ theme = "hermit" # Set the theme.
 defaultcontentlanguage = "en" # The default content language.
 
 [markup.goldmark.renderer]
-  unsafe= true
+  unsafe = true
+  xHTML = true
 
 [taxonomies]
   tag = "tags"

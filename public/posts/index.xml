@@ -74,7 +74,7 @@ install(Routing) { get(&amp;quot;/foo&amp;quot;) { call.respondText(&amp;quot;ba
 I reworked the dart client that it doesn&#39;t rely on dartson, but works without any further dependencies (pull request).</description>
 			<content type="html"><![CDATA[<p>I'm really proud that I successfully did my first open-source contribution to a &ldquo;relevant&rdquo; project. While trying to create a <a href="https://swagger.io/">swagger</a> client library for the dart language, I noticed, that the generated code wasn't working for <a href="https://flutter.io/">Flutter</a>. The reason for this is the lack of <a href="https://api.dartlang.org/stable/1.24.3/dart-mirrors/dart-mirrors-library.html">dart:mirrors</a> support in the flutter framework. The generated code was using <a href="https://pub.dartlang.org/packages/dartson">dartson</a> which relies on <code>dart:mirrors</code>.</p>
 <p>I reworked the dart client that it doesn't rely on dartson, but works without any further dependencies (<a href="https://github.com/swagger-api/swagger-codegen/pull/7418">pull request</a>).</p>
-<p><img src="https://s3-eu-central-1.amazonaws.com/android-recollections-assets/wp-content/uploads/2018/01/23221426/Screen-Shot-2018-01-23-at-22.11.36.png" alt="Screenshot pull request"></p>
+<p><img src="https://s3-eu-central-1.amazonaws.com/android-recollections-assets/wp-content/uploads/2018/01/23221426/Screen-Shot-2018-01-23-at-22.11.36.png" alt="Screenshot pull request" /></p>
 <p>I know, +8.000 lines doesn't sound good, but this is the generated sample code for a flutter app mostly.</p>
 ]]></content>
 		</item>
@@ -176,7 +176,7 @@ $ echo &quot;avd.ini.encoding=UTF-8&quot; &gt;&gt; ~/.android/avd/api-22.avd/con
 http://www.agileadvice.com/2015/10/24/howtoapplyagile/question-product-owner-and-technical-debt/
  As a product owner, what are the best ways to record technical debt and what are some approaches to prioritizing that work amid the continuous delivery of working software?
  </description>
-			<content type="html"><![CDATA[<p>Nice read:<br>
+			<content type="html"><![CDATA[<p>Nice read:<br />
 <a href="http://www.agileadvice.com/2015/10/24/howtoapplyagile/question-product-owner-and-technical-debt/">http://www.agileadvice.com/2015/10/24/howtoapplyagile/question-product-owner-and-technical-debt/</a></p>
 <blockquote>
 <p>As a product owner, what are the best ways to record technical debt and what are some approaches to prioritizing that work amid the continuous delivery of working software?</p>
