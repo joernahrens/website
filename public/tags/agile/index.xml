@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Agile on Jörn Ahrens</title>
+    <link>https://blog.joernahrens.de/tags/agile/</link>
+    <description>Recent content in Agile on Jörn Ahrens</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Nov 2015 19:44:27 +0100</lastBuildDate>
+    
+	<atom:link href="https://blog.joernahrens.de/tags/agile/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Change isn&#39;t free</title>
+      <link>https://blog.joernahrens.de/posts/change-isnt-free/</link>
+      <pubDate>Sun, 01 Nov 2015 19:44:27 +0100</pubDate>
+      
+      <guid>https://blog.joernahrens.de/posts/change-isnt-free/</guid>
+      <description>http://www.mountaingoatsoftware.com/blog/change-isnt-free</description>
+    </item>
+    
+    <item>
+      <title>PO and technical debt</title>
+      <link>https://blog.joernahrens.de/posts/po-tech-debt/</link>
+      <pubDate>Thu, 29 Oct 2015 19:41:53 +0100</pubDate>
+      
+      <guid>https://blog.joernahrens.de/posts/po-tech-debt/</guid>
+      <description>Nice read:
+http://www.agileadvice.com/2015/10/24/howtoapplyagile/question-product-owner-and-technical-debt/
+ As a product owner, what are the best ways to record technical debt and what are some approaches to prioritizing that work amid the continuous delivery of working software?
+ </description>
+    </item>
+    
+  </channel>
+</rss>

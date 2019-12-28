@@ -2,30 +2,102 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Jörn Ahrens</title>
-    <link>https://joernahrens.netlify.com/tags/</link>
+    <link>https://blog.joernahrens.de/tags/</link>
     <description>Recent content in Tags on Jörn Ahrens</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Dec 2019 16:55:45 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 23 Dec 2019 13:55:15 +0100</lastBuildDate>
     
-	<atom:link href="https://joernahrens.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.joernahrens.de/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Android</title>
-      <link>https://joernahrens.netlify.com/tags/android/</link>
-      <pubDate>Sun, 22 Dec 2019 16:55:45 +0100</pubDate>
+      <link>https://blog.joernahrens.de/tags/android/</link>
+      <pubDate>Mon, 23 Dec 2019 13:55:15 +0100</pubDate>
       
-      <guid>https://joernahrens.netlify.com/tags/android/</guid>
+      <guid>https://blog.joernahrens.de/tags/android/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>TDD</title>
-      <link>https://joernahrens.netlify.com/tags/tdd/</link>
-      <pubDate>Sun, 22 Dec 2019 16:55:45 +0100</pubDate>
+      <title>CI</title>
+      <link>https://blog.joernahrens.de/tags/ci/</link>
+      <pubDate>Mon, 23 Dec 2019 13:55:15 +0100</pubDate>
       
-      <guid>https://joernahrens.netlify.com/tags/tdd/</guid>
+      <guid>https://blog.joernahrens.de/tags/ci/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Emulator</title>
+      <link>https://blog.joernahrens.de/tags/emulator/</link>
+      <pubDate>Mon, 23 Dec 2019 13:55:15 +0100</pubDate>
+      
+      <guid>https://blog.joernahrens.de/tags/emulator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Backend</title>
+      <link>https://blog.joernahrens.de/tags/backend/</link>
+      <pubDate>Fri, 26 Jan 2018 19:36:50 +0100</pubDate>
+      
+      <guid>https://blog.joernahrens.de/tags/backend/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kotlin</title>
+      <link>https://blog.joernahrens.de/tags/kotlin/</link>
+      <pubDate>Fri, 26 Jan 2018 19:36:50 +0100</pubDate>
+      
+      <guid>https://blog.joernahrens.de/tags/kotlin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dart</title>
+      <link>https://blog.joernahrens.de/tags/dart/</link>
+      <pubDate>Tue, 23 Jan 2018 20:42:54 +0100</pubDate>
+      
+      <guid>https://blog.joernahrens.de/tags/dart/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Swagger</title>
+      <link>https://blog.joernahrens.de/tags/swagger/</link>
+      <pubDate>Tue, 23 Jan 2018 20:42:54 +0100</pubDate>
+      
+      <guid>https://blog.joernahrens.de/tags/swagger/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>git</title>
+      <link>https://blog.joernahrens.de/tags/git/</link>
+      <pubDate>Tue, 23 Jan 2018 20:39:12 +0100</pubDate>
+      
+      <guid>https://blog.joernahrens.de/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bash</title>
+      <link>https://blog.joernahrens.de/tags/bash/</link>
+      <pubDate>Thu, 30 Mar 2017 22:35:51 +0100</pubDate>
+      
+      <guid>https://blog.joernahrens.de/tags/bash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Agile</title>
+      <link>https://blog.joernahrens.de/tags/agile/</link>
+      <pubDate>Sun, 01 Nov 2015 19:44:27 +0100</pubDate>
+      
+      <guid>https://blog.joernahrens.de/tags/agile/</guid>
       <description></description>
     </item>
     

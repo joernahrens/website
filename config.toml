@@ -4,6 +4,9 @@ title = "Jörn Ahrens"
 theme = "hermit" # Set the theme.
 defaultcontentlanguage = "en" # The default content language.
 
+[markup.goldmark.renderer]
+  unsafe= true
+
 [taxonomies]
   tag = "tags"
   # Categories are disabled by default.
