@@ -13,13 +13,13 @@ draft: false
 
 ## Skillsheet
 
-💬 **Programming Languages**: Java, Kotlin, Dart, TypeScript, JavaScript, Bash  
+💬 **Programming Languages**: Java, Kotlin, Dart, TypeScript, JavaScript, Go, Bash  
 🏠 **Platforms**: Android, Flutter, Firebase, AWS  
 🤝 **API technologies**: REST, Swagger/OpenAPI, GRPC/Protobuf, Thrift  
-⚙️ **CI**: Travis, Circle CI, GitHub Actions  
+⚙️ **CI**: Circle CI, GitHub Actions, Travis  
 💾 **Databases**: MySQL, PostgreSQL, sqlite + sqlcipher, Oracle  
 ✅ **Testing**: JUnit, TestNG, Spock, jest  
-🗣 **Languages**: German (native), English (fluent)
+🗣 **Languages**: German (first language), English (fluent)  
 
 ## Apps I've contributed to
 

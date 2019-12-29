@@ -40,10 +40,10 @@ Mail: mail@joernahrens.de</description>
       <pubDate>Sun, 22 Dec 2019 17:05:58 +0100</pubDate>
       
       <guid>/about/</guid>
-      <description>Short CV  Born in Hamburg, 1980 Studied Computer Engineering at the University of Applied Sciences Wedel, completed 2005 Having worked as developer, team lead and architect professionally since 2005 Started with backend development, focused on Android Development since end of 2009  Skillsheet 💬 Programming Languages: Java, Kotlin, Dart, TypeScript, JavaScript, Bash
+      <description>Short CV  Born in Hamburg, 1980 Studied Computer Engineering at the University of Applied Sciences Wedel, completed 2005 Having worked as developer, team lead and architect professionally since 2005 Started with backend development, focused on Android Development since end of 2009  Skillsheet 💬 Programming Languages: Java, Kotlin, Dart, TypeScript, JavaScript, Go, Bash
 🏠 Platforms: Android, Flutter, Firebase, AWS
 🤝 API technologies: REST, Swagger/OpenAPI, GRPC/Protobuf, Thrift
-⚙️ CI: Travis, Circle CI, GitHub Actions</description>
+⚙️ CI: Circle CI, GitHub Actions, Travis</description>
     </item>
     
     <item>
