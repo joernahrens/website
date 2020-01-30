@@ -5,8 +5,24 @@
 		<description>Recent content in Posts on Jörn Ahrens</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
-		<lastBuildDate>Mon, 23 Dec 2019 13:55:15 +0100</lastBuildDate>
+		<lastBuildDate>Thu, 30 Jan 2020 09:19:13 +0100</lastBuildDate>
 		<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>Viewpager2 With Fragments</title>
+			<link>/posts/viewpager2-with-fragments/</link>
+			<pubDate>Thu, 30 Jan 2020 09:19:13 +0100</pubDate>
+			
+			<guid>/posts/viewpager2-with-fragments/</guid>
+			<description>Just a note to my future me, since I saw a weird behavior of ViewPager2 together with a TabLayout and a FragmentStateAdapter.
+The default behavior seems to be, not to &amp;ldquo;warm up&amp;rdquo; the next fragments. To achieve this, set:
+yourViewPager.offscreenPageLimit = 1 You can of course set higher numbers, which will cause more fragments to be preloaded.</description>
+			<content type="html"><![CDATA[<p>Just a note to my future me, since I saw a weird behavior of <a href="https://developer.android.com/reference/androidx/viewpager2/widget/ViewPager2.html">ViewPager2</a> together with a <code>TabLayout</code> and a <code>FragmentStateAdapter</code>.</p>
+<p>The default behavior seems to be, not to &ldquo;warm up&rdquo; the next fragments. To achieve this, set:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-kotlin" data-lang="kotlin">yourViewPager.offscreenPageLimit = <span style="color:#ae81ff">1</span>
+</code></pre></div><p>You can of course set higher numbers, which will cause more fragments to be preloaded.</p>
+]]></content>
+		</item>
 		
 		<item>
 			<title>A couple of scripts for Emulator in the CI system</title>

@@ -6,10 +6,21 @@
     <description>Recent content on Jörn Ahrens</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Dec 2019 13:55:15 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jan 2020 09:19:13 +0100</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Viewpager2 With Fragments</title>
+      <link>/posts/viewpager2-with-fragments/</link>
+      <pubDate>Thu, 30 Jan 2020 09:19:13 +0100</pubDate>
+      
+      <guid>/posts/viewpager2-with-fragments/</guid>
+      <description>Just a note to my future me, since I saw a weird behavior of ViewPager2 together with a TabLayout and a FragmentStateAdapter.
+The default behavior seems to be, not to &amp;ldquo;warm up&amp;rdquo; the next fragments. To achieve this, set:
+yourViewPager.offscreenPageLimit = 1 You can of course set higher numbers, which will cause more fragments to be preloaded.</description>
+    </item>
     
     <item>
       <title>A couple of scripts for Emulator in the CI system</title>

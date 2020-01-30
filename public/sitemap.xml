@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/</loc>
+    <lastmod>2020-01-30T09:19:13+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/</loc>
+    <lastmod>2020-01-30T09:19:13+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/viewpager2-with-fragments/</loc>
+    <lastmod>2020-01-30T09:19:13+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/posts/genymotion-to-emulator/</loc>
     <lastmod>2019-12-23T13:55:15+01:00</lastmod>
   </url>
@@ -19,16 +34,6 @@
   
   <url>
     <loc>/tags/emulator/</loc>
-    <lastmod>2019-12-23T13:55:15+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2019-12-23T13:55:15+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/</loc>
     <lastmod>2019-12-23T13:55:15+01:00</lastmod>
   </url>
   
