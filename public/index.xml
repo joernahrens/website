@@ -30,7 +30,7 @@ This contains a couple of useful scripts to automate AVD management and such.</d
       <description>Imprint Jörn Ahrens
 Quickborner Straße 72 h
 22844 Norderstedt
-Let&#39;s talk Phone: 0176 23497907
+Let&amp;rsquo;s talk Phone: 0176 23497907
 Mail: mail@joernahrens.de</description>
     </item>
     
@@ -52,7 +52,7 @@ Mail: mail@joernahrens.de</description>
       <pubDate>Mon, 19 Mar 2018 20:51:41 +0100</pubDate>
       
       <guid>/posts/android-screenshot-script/</guid>
-      <description>Currently I&#39;m trying a lot of automated UI testing on emulators.
+      <description>Currently I&amp;rsquo;m trying a lot of automated UI testing on emulators.
 This could be really helpful in the near future:
 adb-screenshot.sh</description>
     </item>
@@ -73,8 +73,8 @@ install(Routing) { get(&amp;quot;/foo&amp;quot;) { call.respondText(&amp;quot;ba
       <pubDate>Tue, 23 Jan 2018 20:42:54 +0100</pubDate>
       
       <guid>/posts/dart-swagger/</guid>
-      <description>I&#39;m really proud that I successfully did my first open-source contribution to a &amp;ldquo;relevant&amp;rdquo; project. While trying to create a swagger client library for the dart language, I noticed, that the generated code wasn&#39;t working for Flutter. The reason for this is the lack of dart:mirrors support in the flutter framework. The generated code was using dartson which relies on dart:mirrors.
-I reworked the dart client that it doesn&#39;t rely on dartson, but works without any further dependencies (pull request).</description>
+      <description>I&amp;rsquo;m really proud that I successfully did my first open-source contribution to a &amp;ldquo;relevant&amp;rdquo; project. While trying to create a swagger client library for the dart language, I noticed, that the generated code wasn&amp;rsquo;t working for Flutter. The reason for this is the lack of dart:mirrors support in the flutter framework. The generated code was using dartson which relies on dart:mirrors.
+I reworked the dart client that it doesn&amp;rsquo;t rely on dartson, but works without any further dependencies (pull request).</description>
     </item>
     
     <item>
@@ -102,7 +102,7 @@ SCRIPT_SRC_DIR=&amp;quot;$( cd &amp;quot;$( dirname &amp;quot;${BASH_SOURCE[0]}&
       <pubDate>Wed, 15 Mar 2017 10:55:59 +0100</pubDate>
       
       <guid>/posts/avd-from-commandline/</guid>
-      <description>I always struggle googling this, so that&#39;s why it&#39;s here for my future me:
+      <description>I always struggle googling this, so that&amp;rsquo;s why it&amp;rsquo;s here for my future me:
 $ ~/.android-sdk/tools/android create avd -n api-22 --target &amp;quot;Google Inc.:Google APIs:22&amp;quot; -b google_apis/x86_64 --force -c 512M -s 720x1280 $ echo &amp;quot;disk.dataPartition.size=1024MB&amp;quot; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;quot;hw.lcd.density=280&amp;quot; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;quot;hw.ramSize=1536&amp;quot; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;quot;hw.keyboard=yes&amp;quot; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;quot;showDeviceFrame=no&amp;quot; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;quot;skin.dynamic=yes&amp;quot; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;quot;skin.path=_no_skin&amp;quot; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;quot;skin.path.backup=_no_skin&amp;quot; &amp;gt;&amp;gt; ~/.</description>
     </item>
     

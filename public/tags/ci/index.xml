@@ -27,7 +27,7 @@ This contains a couple of useful scripts to automate AVD management and such.</d
       <pubDate>Mon, 19 Mar 2018 20:51:41 +0100</pubDate>
       
       <guid>/posts/android-screenshot-script/</guid>
-      <description>Currently I&#39;m trying a lot of automated UI testing on emulators.
+      <description>Currently I&amp;rsquo;m trying a lot of automated UI testing on emulators.
 This could be really helpful in the near future:
 adb-screenshot.sh</description>
     </item>

@@ -27,10 +27,10 @@ This contains a couple of useful scripts to automate AVD management and such.</d
 			<pubDate>Mon, 19 Mar 2018 20:51:41 +0100</pubDate>
 			
 			<guid>/posts/android-screenshot-script/</guid>
-			<description>Currently I&#39;m trying a lot of automated UI testing on emulators.
+			<description>Currently I&amp;rsquo;m trying a lot of automated UI testing on emulators.
 This could be really helpful in the near future:
 adb-screenshot.sh</description>
-			<content type="html"><![CDATA[<p>Currently I'm trying a lot of automated UI testing on emulators.</p>
+			<content type="html"><![CDATA[<p>Currently I&rsquo;m trying a lot of automated UI testing on emulators.</p>
 <p>This could be really helpful in the near future:</p>
 <p><a href="https://gist.github.com/hkurokawa/75b44564cc1491b5f4a2">adb-screenshot.sh</a></p>
 ]]></content>
@@ -70,12 +70,12 @@ install(Routing) { get(&amp;quot;/foo&amp;quot;) { call.respondText(&amp;quot;ba
 			<pubDate>Tue, 23 Jan 2018 20:42:54 +0100</pubDate>
 			
 			<guid>/posts/dart-swagger/</guid>
-			<description>I&#39;m really proud that I successfully did my first open-source contribution to a &amp;ldquo;relevant&amp;rdquo; project. While trying to create a swagger client library for the dart language, I noticed, that the generated code wasn&#39;t working for Flutter. The reason for this is the lack of dart:mirrors support in the flutter framework. The generated code was using dartson which relies on dart:mirrors.
-I reworked the dart client that it doesn&#39;t rely on dartson, but works without any further dependencies (pull request).</description>
-			<content type="html"><![CDATA[<p>I'm really proud that I successfully did my first open-source contribution to a &ldquo;relevant&rdquo; project. While trying to create a <a href="https://swagger.io/">swagger</a> client library for the dart language, I noticed, that the generated code wasn't working for <a href="https://flutter.io/">Flutter</a>. The reason for this is the lack of <a href="https://api.dartlang.org/stable/1.24.3/dart-mirrors/dart-mirrors-library.html">dart:mirrors</a> support in the flutter framework. The generated code was using <a href="https://pub.dartlang.org/packages/dartson">dartson</a> which relies on <code>dart:mirrors</code>.</p>
-<p>I reworked the dart client that it doesn't rely on dartson, but works without any further dependencies (<a href="https://github.com/swagger-api/swagger-codegen/pull/7418">pull request</a>).</p>
+			<description>I&amp;rsquo;m really proud that I successfully did my first open-source contribution to a &amp;ldquo;relevant&amp;rdquo; project. While trying to create a swagger client library for the dart language, I noticed, that the generated code wasn&amp;rsquo;t working for Flutter. The reason for this is the lack of dart:mirrors support in the flutter framework. The generated code was using dartson which relies on dart:mirrors.
+I reworked the dart client that it doesn&amp;rsquo;t rely on dartson, but works without any further dependencies (pull request).</description>
+			<content type="html"><![CDATA[<p>I&rsquo;m really proud that I successfully did my first open-source contribution to a &ldquo;relevant&rdquo; project. While trying to create a <a href="https://swagger.io/">swagger</a> client library for the dart language, I noticed, that the generated code wasn&rsquo;t working for <a href="https://flutter.io/">Flutter</a>. The reason for this is the lack of <a href="https://api.dartlang.org/stable/1.24.3/dart-mirrors/dart-mirrors-library.html">dart:mirrors</a> support in the flutter framework. The generated code was using <a href="https://pub.dartlang.org/packages/dartson">dartson</a> which relies on <code>dart:mirrors</code>.</p>
+<p>I reworked the dart client that it doesn&rsquo;t rely on dartson, but works without any further dependencies (<a href="https://github.com/swagger-api/swagger-codegen/pull/7418">pull request</a>).</p>
 <p><img src="https://s3-eu-central-1.amazonaws.com/android-recollections-assets/wp-content/uploads/2018/01/23221426/Screen-Shot-2018-01-23-at-22.11.36.png" alt="Screenshot pull request" /></p>
-<p>I know, +8.000 lines doesn't sound good, but this is the generated sample code for a flutter app mostly.</p>
+<p>I know, +8.000 lines doesn&rsquo;t sound good, but this is the generated sample code for a flutter app mostly.</p>
 ]]></content>
 		</item>
 		
@@ -126,9 +126,9 @@ SCRIPT_SRC_DIR=&amp;quot;$( cd &amp;quot;$( dirname &amp;quot;${BASH_SOURCE[0]}&
 			<pubDate>Wed, 15 Mar 2017 10:55:59 +0100</pubDate>
 			
 			<guid>/posts/avd-from-commandline/</guid>
-			<description>I always struggle googling this, so that&#39;s why it&#39;s here for my future me:
+			<description>I always struggle googling this, so that&amp;rsquo;s why it&amp;rsquo;s here for my future me:
 $ ~/.android-sdk/tools/android create avd -n api-22 --target &amp;quot;Google Inc.:Google APIs:22&amp;quot; -b google_apis/x86_64 --force -c 512M -s 720x1280 $ echo &amp;quot;disk.dataPartition.size=1024MB&amp;quot; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;quot;hw.lcd.density=280&amp;quot; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;quot;hw.ramSize=1536&amp;quot; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;quot;hw.keyboard=yes&amp;quot; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;quot;showDeviceFrame=no&amp;quot; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;quot;skin.dynamic=yes&amp;quot; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;quot;skin.path=_no_skin&amp;quot; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;quot;skin.path.backup=_no_skin&amp;quot; &amp;gt;&amp;gt; ~/.</description>
-			<content type="html"><![CDATA[<p>I always struggle googling this, so that's why it's here for my future me:</p>
+			<content type="html"><![CDATA[<p>I always struggle googling this, so that&rsquo;s why it&rsquo;s here for my future me:</p>
 <pre><code>$ ~/.android-sdk/tools/android create avd -n api-22 --target &quot;Google Inc.:Google APIs:22&quot; -b google_apis/x86_64 --force -c 512M -s 720x1280
 $ echo &quot;disk.dataPartition.size=1024MB&quot; &gt;&gt; ~/.android/avd/api-22.avd/config.ini
 $ echo &quot;hw.lcd.density=280&quot; &gt;&gt; ~/.android/avd/api-22.avd/config.ini
