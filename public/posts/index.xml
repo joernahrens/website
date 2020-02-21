@@ -5,8 +5,30 @@
 		<description>Recent content in Posts on Jörn Ahrens</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
-		<lastBuildDate>Thu, 30 Jan 2020 09:19:13 +0100</lastBuildDate>
+		<lastBuildDate>Fri, 21 Feb 2020 15:37:30 +0100</lastBuildDate>
 		<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>Dark Mode Hidden</title>
+			<link>/posts/dark-mode-hidden/</link>
+			<pubDate>Fri, 21 Feb 2020 15:37:30 +0100</pubDate>
+			
+			<guid>/posts/dark-mode-hidden/</guid>
+			<description>The dark mode setting for &amp;ldquo;Depend on time&amp;rdquo; is gone, but still there.
+Thanks to: https://www.androidpolice.com/2019/03/13/android-q-beta-doesnt-have-a-dark-mode-toggle-so-turn-it-off-or-on-before-upgrading/ 🎉
+ If you want to enable dark mode, enter: adb shell settings put secure ui_night_mode 2
+If you want to disable dark mode, enter: adb shell settings put secure ui_night_mode 1
+If you want to set it to auto, enter: adb shell settings put secure ui_night_mode 0
+ </description>
+			<content type="html"><![CDATA[<p>The dark mode setting for &ldquo;Depend on time&rdquo; is gone, but still there.</p>
+<p>Thanks to: <a href="https://www.androidpolice.com/2019/03/13/android-q-beta-doesnt-have-a-dark-mode-toggle-so-turn-it-off-or-on-before-upgrading/">https://www.androidpolice.com/2019/03/13/android-q-beta-doesnt-have-a-dark-mode-toggle-so-turn-it-off-or-on-before-upgrading/</a> 🎉</p>
+<blockquote>
+<p>If you want to enable dark mode, enter: <code>adb shell settings put secure ui_night_mode 2</code></p>
+<p>If you want to disable dark mode, enter: <code>adb shell settings put secure ui_night_mode 1</code></p>
+<p>If you want to set it to auto, enter: <code>adb shell settings put secure ui_night_mode 0</code></p>
+</blockquote>
+]]></content>
+		</item>
 		
 		<item>
 			<title>Viewpager2 With Fragments</title>
