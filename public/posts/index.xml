@@ -5,8 +5,21 @@
 		<description>Recent content in Posts on Jörn Ahrens</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
-		<lastBuildDate>Fri, 21 Feb 2020 15:37:30 +0100</lastBuildDate>
+		<lastBuildDate>Wed, 13 May 2020 16:41:45 +0200</lastBuildDate>
 		<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>Android Window Insets</title>
+			<link>/posts/android-window-insets/</link>
+			<pubDate>Wed, 13 May 2020 16:41:45 +0200</pubDate>
+			
+			<guid>/posts/android-window-insets/</guid>
+			<description>Please keep this in mind forever: https://chris.banes.dev/talks/2017/becoming-a-master-window-fitter-lon/
+Good talk about how to draw content below status and navigation bar. Also covers window insets.</description>
+			<content type="html"><![CDATA[<p>Please keep this in mind forever: <a href="https://chris.banes.dev/talks/2017/becoming-a-master-window-fitter-lon/">https://chris.banes.dev/talks/2017/becoming-a-master-window-fitter-lon/</a></p>
+<p>Good talk about how to draw content below status and navigation bar. Also covers <strong>window insets</strong>.</p>
+]]></content>
+		</item>
 		
 		<item>
 			<title>Dark Mode Hidden</title>

@@ -3,22 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/posts/dark-mode-hidden/</loc>
-    <lastmod>2020-02-21T15:37:30+01:00</lastmod>
+    <loc>/tags/android/</loc>
+    <lastmod>2020-05-13T16:41:45+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2020-02-21T15:37:30+01:00</lastmod>
+    <loc>/posts/android-window-insets/</loc>
+    <lastmod>2020-05-13T16:41:45+02:00</lastmod>
   </url>
   
   <url>
     <loc>/posts/</loc>
-    <lastmod>2020-02-21T15:37:30+01:00</lastmod>
+    <lastmod>2020-05-13T16:41:45+02:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/</loc>
+    <lastmod>2020-05-13T16:41:45+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/dark-mode-hidden/</loc>
     <lastmod>2020-02-21T15:37:30+01:00</lastmod>
   </url>
   
@@ -38,11 +43,6 @@
   </url>
   
   <url>
-    <loc>/tags/android/</loc>
-    <lastmod>2019-12-23T13:55:15+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/ci/</loc>
     <lastmod>2019-12-23T13:55:15+01:00</lastmod>
   </url>
@@ -54,6 +54,11 @@
   
   <url>
     <loc>/contact/</loc>
+    <lastmod>2019-12-22T17:22:28+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
     <lastmod>2019-12-22T17:22:28+01:00</lastmod>
   </url>
   
