@@ -6,18 +6,14 @@
     <description>Recent content in git on Jörn Ahrens</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 23 Jan 2018 20:39:12 +0100</lastBuildDate>
-    
-	<atom:link href="/tags/git/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 23 Jan 2018 20:39:12 +0100</lastBuildDate><atom:link href="/tags/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Git Aliases</title>
       <link>/posts/git-aliases/</link>
       <pubDate>Tue, 23 Jan 2018 20:39:12 +0100</pubDate>
       
       <guid>/posts/git-aliases/</guid>
-      <description>Shell aliases $ alias | grep git alias delete-merged-branches=&#39;git branch --merged | grep -v &#39;\&#39;&#39;\*&#39;\&#39;&#39; | xargs -n 1 git branch -d&#39; alias g=&#39;git status&#39; alias gcam=&#39;git commit -am&#39; alias gd=&#39;git diff&#39; alias gf=&#39;git fetch&#39; alias git=&#39;hub&#39; alias gl=&#39;git pull --prune&#39; alias gp=&#39;git push&#39; alias gpoh=&#39;git push -u origin HEAD&#39; alias gpr=&#39;git pull-request&#39; git aliases [alias] co = checkout please = push --force-with-lease amend = commit --amend --no-edit unstage = reset - </description>
+      <description>Shell aliases $ alias | grep git alias delete-merged-branches=&amp;#39;git branch --merged | grep -v &amp;#39;\&amp;#39;&amp;#39;\*&amp;#39;\&amp;#39;&amp;#39; | xargs -n 1 git branch -d&amp;#39; alias g=&amp;#39;git status&amp;#39; alias gcam=&amp;#39;git commit -am&amp;#39; alias gd=&amp;#39;git diff&amp;#39; alias gf=&amp;#39;git fetch&amp;#39; alias git=&amp;#39;hub&amp;#39; alias gl=&amp;#39;git pull --prune&amp;#39; alias gp=&amp;#39;git push&amp;#39; alias gpoh=&amp;#39;git push -u origin HEAD&amp;#39; alias gpr=&amp;#39;git pull-request&amp;#39; git aliases [alias] co = checkout please = push --force-with-lease amend = commit --amend --no-edit unstage = reset - </description>
     </item>
     
   </channel>

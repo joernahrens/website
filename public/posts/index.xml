@@ -29,10 +29,9 @@ Good talk about how to draw content below status and navigation bar. Also covers
 			<guid>/posts/dark-mode-hidden/</guid>
 			<description>The dark mode setting for &amp;ldquo;Depend on time&amp;rdquo; is gone, but still there.
 Thanks to: https://www.androidpolice.com/2019/03/13/android-q-beta-doesnt-have-a-dark-mode-toggle-so-turn-it-off-or-on-before-upgrading/ 🎉
- If you want to enable dark mode, enter: adb shell settings put secure ui_night_mode 2
+If you want to enable dark mode, enter: adb shell settings put secure ui_night_mode 2
 If you want to disable dark mode, enter: adb shell settings put secure ui_night_mode 1
-If you want to set it to auto, enter: adb shell settings put secure ui_night_mode 0
- </description>
+If you want to set it to auto, enter: adb shell settings put secure ui_night_mode 0</description>
 			<content type="html"><![CDATA[<p>The dark mode setting for &ldquo;Depend on time&rdquo; is gone, but still there.</p>
 <p>Thanks to: <a href="https://www.androidpolice.com/2019/03/13/android-q-beta-doesnt-have-a-dark-mode-toggle-so-turn-it-off-or-on-before-upgrading/">https://www.androidpolice.com/2019/03/13/android-q-beta-doesnt-have-a-dark-mode-toggle-so-turn-it-off-or-on-before-upgrading/</a> 🎉</p>
 <blockquote>
@@ -54,8 +53,8 @@ The default behavior seems to be, not to &amp;ldquo;warm up&amp;rdquo; the next 
 yourViewPager.offscreenPageLimit = 1 You can of course set higher numbers, which will cause more fragments to be preloaded.</description>
 			<content type="html"><![CDATA[<p>Just a note to my future me, since I saw a weird behavior of <a href="https://developer.android.com/reference/androidx/viewpager2/widget/ViewPager2.html">ViewPager2</a> together with a <code>TabLayout</code> and a <code>FragmentStateAdapter</code>.</p>
 <p>The default behavior seems to be, not to &ldquo;warm up&rdquo; the next fragments. To achieve this, set:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-kotlin" data-lang="kotlin">yourViewPager.offscreenPageLimit = <span style="color:#ae81ff">1</span>
-</code></pre></div><p>You can of course set higher numbers, which will cause more fragments to be preloaded.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-kotlin" data-lang="kotlin"><span style="display:flex;"><span>yourViewPager.offscreenPageLimit = <span style="color:#ae81ff">1</span>
+</span></span></code></pre></div><p>You can of course set higher numbers, which will cause more fragments to be preloaded.</p>
 ]]></content>
 		</item>
 		
@@ -94,17 +93,17 @@ adb-screenshot.sh</description>
 			
 			<guid>/posts/ktor/</guid>
 			<description>Just wanted to note ktor, a really nice kotlin framework to easily create server applications. For example, defining a REST API, looks as simple as this:
-install(Routing) { get(&amp;quot;/foo&amp;quot;) { call.respondText(&amp;quot;bar&amp;quot;) } route(&amp;quot;api&amp;quot;) { intercept(ApplicationCallPipeline.Infrastructure) { AuthCheckInterceptor.intercept(this) } route(&amp;quot;cars&amp;quot;) { get { ListCarsHandler().doIt(this) } } } } Check their website or the github page</description>
+install(Routing) { get(&amp;#34;/foo&amp;#34;) { call.respondText(&amp;#34;bar&amp;#34;) } route(&amp;#34;api&amp;#34;) { intercept(ApplicationCallPipeline.Infrastructure) { AuthCheckInterceptor.intercept(this) } route(&amp;#34;cars&amp;#34;) { get { ListCarsHandler().doIt(this) } } } } Check their website or the github page</description>
 			<content type="html"><![CDATA[<p>Just wanted to note ktor, a really nice kotlin framework to easily create server applications. For example, defining a REST API, looks as simple as this:</p>
-<pre><code>install(Routing) {
-    get(&quot;/foo&quot;) {
-        call.respondText(&quot;bar&quot;)
+<pre tabindex="0"><code>install(Routing) {
+    get(&#34;/foo&#34;) {
+        call.respondText(&#34;bar&#34;)
     }
-    route(&quot;api&quot;) {
+    route(&#34;api&#34;) {
         intercept(ApplicationCallPipeline.Infrastructure) {
             AuthCheckInterceptor.intercept(this)
         }
-        route(&quot;cars&quot;) {
+        route(&#34;cars&#34;) {
             get {
                 ListCarsHandler().doIt(this)
             }
@@ -136,21 +135,21 @@ I reworked the dart client that it doesn&amp;rsquo;t rely on dartson, but works 
 			<pubDate>Tue, 23 Jan 2018 20:39:12 +0100</pubDate>
 			
 			<guid>/posts/git-aliases/</guid>
-			<description>Shell aliases $ alias | grep git alias delete-merged-branches=&#39;git branch --merged | grep -v &#39;\&#39;&#39;\*&#39;\&#39;&#39; | xargs -n 1 git branch -d&#39; alias g=&#39;git status&#39; alias gcam=&#39;git commit -am&#39; alias gd=&#39;git diff&#39; alias gf=&#39;git fetch&#39; alias git=&#39;hub&#39; alias gl=&#39;git pull --prune&#39; alias gp=&#39;git push&#39; alias gpoh=&#39;git push -u origin HEAD&#39; alias gpr=&#39;git pull-request&#39; git aliases [alias] co = checkout please = push --force-with-lease amend = commit --amend --no-edit unstage = reset - </description>
+			<description>Shell aliases $ alias | grep git alias delete-merged-branches=&amp;#39;git branch --merged | grep -v &amp;#39;\&amp;#39;&amp;#39;\*&amp;#39;\&amp;#39;&amp;#39; | xargs -n 1 git branch -d&amp;#39; alias g=&amp;#39;git status&amp;#39; alias gcam=&amp;#39;git commit -am&amp;#39; alias gd=&amp;#39;git diff&amp;#39; alias gf=&amp;#39;git fetch&amp;#39; alias git=&amp;#39;hub&amp;#39; alias gl=&amp;#39;git pull --prune&amp;#39; alias gp=&amp;#39;git push&amp;#39; alias gpoh=&amp;#39;git push -u origin HEAD&amp;#39; alias gpr=&amp;#39;git pull-request&amp;#39; git aliases [alias] co = checkout please = push --force-with-lease amend = commit --amend --no-edit unstage = reset - </description>
 			<content type="html"><![CDATA[<h3 id="shell-aliases">Shell aliases</h3>
-<pre><code>$ alias | grep git
-alias delete-merged-branches='git branch --merged | grep -v '\''\*'\'' | xargs -n 1 git branch -d'
-alias g='git status'
-alias gcam='git commit -am'
-alias gd='git diff'
-alias gf='git fetch'
-alias git='hub'
-alias gl='git pull --prune'
-alias gp='git push'
-alias gpoh='git push -u origin HEAD'
-alias gpr='git pull-request'
+<pre tabindex="0"><code>$ alias | grep git
+alias delete-merged-branches=&#39;git branch --merged | grep -v &#39;\&#39;&#39;\*&#39;\&#39;&#39; | xargs -n 1 git branch -d&#39;
+alias g=&#39;git status&#39;
+alias gcam=&#39;git commit -am&#39;
+alias gd=&#39;git diff&#39;
+alias gf=&#39;git fetch&#39;
+alias git=&#39;hub&#39;
+alias gl=&#39;git pull --prune&#39;
+alias gp=&#39;git push&#39;
+alias gpoh=&#39;git push -u origin HEAD&#39;
+alias gpr=&#39;git pull-request&#39;
 </code></pre><h3 id="git-aliases">git aliases</h3>
-<pre><code>[alias]
+<pre tabindex="0"><code>[alias]
 co = checkout
 please = push --force-with-lease
 amend = commit --amend --no-edit
@@ -165,9 +164,9 @@ unstage = reset -
 			
 			<guid>/posts/bash-current-dir/</guid>
 			<description>Bash, get directory where the script is located:
-SCRIPT_SRC_DIR=&amp;quot;$( cd &amp;quot;$( dirname &amp;quot;${BASH_SOURCE[0]}&amp;quot; )&amp;quot; &amp;amp;&amp;amp; pwd )&amp;quot; </description>
+SCRIPT_SRC_DIR=&amp;#34;$( cd &amp;#34;$( dirname &amp;#34;${BASH_SOURCE[0]}&amp;#34; )&amp;#34; &amp;amp;&amp;amp; pwd )&amp;#34; </description>
 			<content type="html"><![CDATA[<p>Bash, get directory where the script is located:</p>
-<pre><code>SCRIPT_SRC_DIR=&quot;$( cd &quot;$( dirname &quot;${BASH_SOURCE[0]}&quot; )&quot; &amp;&amp; pwd )&quot;
+<pre tabindex="0"><code>SCRIPT_SRC_DIR=&#34;$( cd &#34;$( dirname &#34;${BASH_SOURCE[0]}&#34; )&#34; &amp;&amp; pwd )&#34;
 </code></pre>]]></content>
 		</item>
 		
@@ -178,18 +177,18 @@ SCRIPT_SRC_DIR=&amp;quot;$( cd &amp;quot;$( dirname &amp;quot;${BASH_SOURCE[0]}&
 			
 			<guid>/posts/avd-from-commandline/</guid>
 			<description>I always struggle googling this, so that&amp;rsquo;s why it&amp;rsquo;s here for my future me:
-$ ~/.android-sdk/tools/android create avd -n api-22 --target &amp;quot;Google Inc.:Google APIs:22&amp;quot; -b google_apis/x86_64 --force -c 512M -s 720x1280 $ echo &amp;quot;disk.dataPartition.size=1024MB&amp;quot; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;quot;hw.lcd.density=280&amp;quot; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;quot;hw.ramSize=1536&amp;quot; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;quot;hw.keyboard=yes&amp;quot; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;quot;showDeviceFrame=no&amp;quot; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;quot;skin.dynamic=yes&amp;quot; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;quot;skin.path=_no_skin&amp;quot; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;quot;skin.path.backup=_no_skin&amp;quot; &amp;gt;&amp;gt; ~/.</description>
+$ ~/.android-sdk/tools/android create avd -n api-22 --target &amp;#34;Google Inc.:Google APIs:22&amp;#34; -b google_apis/x86_64 --force -c 512M -s 720x1280 $ echo &amp;#34;disk.dataPartition.size=1024MB&amp;#34; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;#34;hw.lcd.density=280&amp;#34; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;#34;hw.ramSize=1536&amp;#34; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;#34;hw.keyboard=yes&amp;#34; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;#34;showDeviceFrame=no&amp;#34; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;#34;skin.dynamic=yes&amp;#34; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;#34;skin.path=_no_skin&amp;#34; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;#34;skin.path.backup=_no_skin&amp;#34; &amp;gt;&amp;gt; ~/.</description>
 			<content type="html"><![CDATA[<p>I always struggle googling this, so that&rsquo;s why it&rsquo;s here for my future me:</p>
-<pre><code>$ ~/.android-sdk/tools/android create avd -n api-22 --target &quot;Google Inc.:Google APIs:22&quot; -b google_apis/x86_64 --force -c 512M -s 720x1280
-$ echo &quot;disk.dataPartition.size=1024MB&quot; &gt;&gt; ~/.android/avd/api-22.avd/config.ini
-$ echo &quot;hw.lcd.density=280&quot; &gt;&gt; ~/.android/avd/api-22.avd/config.ini
-$ echo &quot;hw.ramSize=1536&quot; &gt;&gt; ~/.android/avd/api-22.avd/config.ini
-$ echo &quot;hw.keyboard=yes&quot; &gt;&gt; ~/.android/avd/api-22.avd/config.ini
-$ echo &quot;showDeviceFrame=no&quot; &gt;&gt; ~/.android/avd/api-22.avd/config.ini
-$ echo &quot;skin.dynamic=yes&quot; &gt;&gt; ~/.android/avd/api-22.avd/config.ini
-$ echo &quot;skin.path=_no_skin&quot; &gt;&gt; ~/.android/avd/api-22.avd/config.ini
-$ echo &quot;skin.path.backup=_no_skin&quot; &gt;&gt; ~/.android/avd/api-22.avd/config.ini
-$ echo &quot;avd.ini.encoding=UTF-8&quot; &gt;&gt; ~/.android/avd/api-22.avd/config.ini
+<pre tabindex="0"><code>$ ~/.android-sdk/tools/android create avd -n api-22 --target &#34;Google Inc.:Google APIs:22&#34; -b google_apis/x86_64 --force -c 512M -s 720x1280
+$ echo &#34;disk.dataPartition.size=1024MB&#34; &gt;&gt; ~/.android/avd/api-22.avd/config.ini
+$ echo &#34;hw.lcd.density=280&#34; &gt;&gt; ~/.android/avd/api-22.avd/config.ini
+$ echo &#34;hw.ramSize=1536&#34; &gt;&gt; ~/.android/avd/api-22.avd/config.ini
+$ echo &#34;hw.keyboard=yes&#34; &gt;&gt; ~/.android/avd/api-22.avd/config.ini
+$ echo &#34;showDeviceFrame=no&#34; &gt;&gt; ~/.android/avd/api-22.avd/config.ini
+$ echo &#34;skin.dynamic=yes&#34; &gt;&gt; ~/.android/avd/api-22.avd/config.ini
+$ echo &#34;skin.path=_no_skin&#34; &gt;&gt; ~/.android/avd/api-22.avd/config.ini
+$ echo &#34;skin.path.backup=_no_skin&#34; &gt;&gt; ~/.android/avd/api-22.avd/config.ini
+$ echo &#34;avd.ini.encoding=UTF-8&#34; &gt;&gt; ~/.android/avd/api-22.avd/config.ini
 </code></pre>]]></content>
 		</item>
 		
@@ -225,8 +224,7 @@ $ echo &quot;avd.ini.encoding=UTF-8&quot; &gt;&gt; ~/.android/avd/api-22.avd/con
 			<guid>/posts/po-tech-debt/</guid>
 			<description>Nice read:
 http://www.agileadvice.com/2015/10/24/howtoapplyagile/question-product-owner-and-technical-debt/
- As a product owner, what are the best ways to record technical debt and what are some approaches to prioritizing that work amid the continuous delivery of working software?
- </description>
+As a product owner, what are the best ways to record technical debt and what are some approaches to prioritizing that work amid the continuous delivery of working software?</description>
 			<content type="html"><![CDATA[<p>Nice read:<br />
 <a href="http://www.agileadvice.com/2015/10/24/howtoapplyagile/question-product-owner-and-technical-debt/">http://www.agileadvice.com/2015/10/24/howtoapplyagile/question-product-owner-and-technical-debt/</a></p>
 <blockquote>

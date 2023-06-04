@@ -1,150 +1,92 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>/tags/android/</loc>
     <lastmod>2020-05-13T16:41:45+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/posts/android-window-insets/</loc>
     <lastmod>2020-05-13T16:41:45+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2020-05-13T16:41:45+02:00</lastmod>
+  </url><url>
     <loc>/posts/</loc>
     <lastmod>2020-05-13T16:41:45+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tags/</loc>
     <lastmod>2020-05-13T16:41:45+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/posts/dark-mode-hidden/</loc>
     <lastmod>2020-02-21T15:37:30+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tags/untagged/</loc>
     <lastmod>2020-02-21T15:37:30+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/posts/viewpager2-with-fragments/</loc>
     <lastmod>2020-01-30T09:19:13+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/posts/genymotion-to-emulator/</loc>
     <lastmod>2019-12-23T13:55:15+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tags/ci/</loc>
     <lastmod>2019-12-23T13:55:15+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tags/emulator/</loc>
     <lastmod>2019-12-23T13:55:15+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/contact/</loc>
     <lastmod>2019-12-22T17:22:28+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2019-12-22T17:22:28+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/about/</loc>
     <lastmod>2019-12-22T17:05:58+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/posts/android-screenshot-script/</loc>
     <lastmod>2018-03-19T20:51:41+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tags/backend/</loc>
     <lastmod>2018-01-26T19:36:50+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tags/kotlin/</loc>
     <lastmod>2018-01-26T19:36:50+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/posts/ktor/</loc>
     <lastmod>2018-01-26T19:36:50+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tags/dart/</loc>
     <lastmod>2018-01-23T20:42:54+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/posts/dart-swagger/</loc>
     <lastmod>2018-01-23T20:42:54+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tags/swagger/</loc>
     <lastmod>2018-01-23T20:42:54+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tags/git/</loc>
     <lastmod>2018-01-23T20:39:12+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/posts/git-aliases/</loc>
     <lastmod>2018-01-23T20:39:12+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tags/bash/</loc>
     <lastmod>2017-03-30T22:35:51+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/posts/bash-current-dir/</loc>
     <lastmod>2017-03-30T22:35:51+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/posts/avd-from-commandline/</loc>
     <lastmod>2017-03-15T10:55:59+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/posts/speed-up-gradle/</loc>
     <lastmod>2016-02-27T09:50:18+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tags/agile/</loc>
     <lastmod>2015-11-01T19:44:27+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/posts/change-isnt-free/</loc>
     <lastmod>2015-11-01T19:44:27+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/posts/po-tech-debt/</loc>
     <lastmod>2015-10-29T19:41:53+01:00</lastmod>
   </url>
-  
 </urlset>

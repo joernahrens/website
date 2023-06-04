@@ -6,11 +6,7 @@
     <description>Recent content in Backend on Jörn Ahrens</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 Jan 2018 19:36:50 +0100</lastBuildDate>
-    
-	<atom:link href="/tags/backend/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 26 Jan 2018 19:36:50 +0100</lastBuildDate><atom:link href="/tags/backend/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ktor - Server Framework</title>
       <link>/posts/ktor/</link>
@@ -18,7 +14,7 @@
       
       <guid>/posts/ktor/</guid>
       <description>Just wanted to note ktor, a really nice kotlin framework to easily create server applications. For example, defining a REST API, looks as simple as this:
-install(Routing) { get(&amp;quot;/foo&amp;quot;) { call.respondText(&amp;quot;bar&amp;quot;) } route(&amp;quot;api&amp;quot;) { intercept(ApplicationCallPipeline.Infrastructure) { AuthCheckInterceptor.intercept(this) } route(&amp;quot;cars&amp;quot;) { get { ListCarsHandler().doIt(this) } } } } Check their website or the github page</description>
+install(Routing) { get(&amp;#34;/foo&amp;#34;) { call.respondText(&amp;#34;bar&amp;#34;) } route(&amp;#34;api&amp;#34;) { intercept(ApplicationCallPipeline.Infrastructure) { AuthCheckInterceptor.intercept(this) } route(&amp;#34;cars&amp;#34;) { get { ListCarsHandler().doIt(this) } } } } Check their website or the github page</description>
     </item>
     
   </channel>

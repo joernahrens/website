@@ -6,11 +6,7 @@
     <description>Recent content in Android on Jörn Ahrens</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 May 2020 16:41:45 +0200</lastBuildDate>
-    
-	<atom:link href="/tags/android/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 13 May 2020 16:41:45 +0200</lastBuildDate><atom:link href="/tags/android/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Android Window Insets</title>
       <link>/posts/android-window-insets/</link>
@@ -49,7 +45,7 @@ adb-screenshot.sh</description>
       
       <guid>/posts/avd-from-commandline/</guid>
       <description>I always struggle googling this, so that&amp;rsquo;s why it&amp;rsquo;s here for my future me:
-$ ~/.android-sdk/tools/android create avd -n api-22 --target &amp;quot;Google Inc.:Google APIs:22&amp;quot; -b google_apis/x86_64 --force -c 512M -s 720x1280 $ echo &amp;quot;disk.dataPartition.size=1024MB&amp;quot; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;quot;hw.lcd.density=280&amp;quot; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;quot;hw.ramSize=1536&amp;quot; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;quot;hw.keyboard=yes&amp;quot; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;quot;showDeviceFrame=no&amp;quot; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;quot;skin.dynamic=yes&amp;quot; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;quot;skin.path=_no_skin&amp;quot; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;quot;skin.path.backup=_no_skin&amp;quot; &amp;gt;&amp;gt; ~/.</description>
+$ ~/.android-sdk/tools/android create avd -n api-22 --target &amp;#34;Google Inc.:Google APIs:22&amp;#34; -b google_apis/x86_64 --force -c 512M -s 720x1280 $ echo &amp;#34;disk.dataPartition.size=1024MB&amp;#34; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;#34;hw.lcd.density=280&amp;#34; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;#34;hw.ramSize=1536&amp;#34; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;#34;hw.keyboard=yes&amp;#34; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;#34;showDeviceFrame=no&amp;#34; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;#34;skin.dynamic=yes&amp;#34; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;#34;skin.path=_no_skin&amp;#34; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;#34;skin.path.backup=_no_skin&amp;#34; &amp;gt;&amp;gt; ~/.</description>
     </item>
     
     <item>

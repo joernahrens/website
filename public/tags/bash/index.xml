@@ -6,11 +6,7 @@
     <description>Recent content in Bash on Jörn Ahrens</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Mar 2017 22:35:51 +0100</lastBuildDate>
-    
-	<atom:link href="/tags/bash/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 30 Mar 2017 22:35:51 +0100</lastBuildDate><atom:link href="/tags/bash/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bash get current directory</title>
       <link>/posts/bash-current-dir/</link>
@@ -18,7 +14,7 @@
       
       <guid>/posts/bash-current-dir/</guid>
       <description>Bash, get directory where the script is located:
-SCRIPT_SRC_DIR=&amp;quot;$( cd &amp;quot;$( dirname &amp;quot;${BASH_SOURCE[0]}&amp;quot; )&amp;quot; &amp;amp;&amp;amp; pwd )&amp;quot; </description>
+SCRIPT_SRC_DIR=&amp;#34;$( cd &amp;#34;$( dirname &amp;#34;${BASH_SOURCE[0]}&amp;#34; )&amp;#34; &amp;amp;&amp;amp; pwd )&amp;#34; </description>
     </item>
     
   </channel>
