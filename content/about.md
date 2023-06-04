@@ -26,27 +26,39 @@ draft: false
 <div style="text-align: center; align-content: flex-start">
 
 <img src='/images/sparkasse-logo.webp' alt="Jimdo Creator Logo" class="app-contribution-logo" /> 
+
 [Sparkasse](https://play.google.com/store/apps/details?id=com.starfinanz.smob.android.sfinanzstatus)  
+
 App to manage your bank accounts, execute transfers, stock trading and much more. Contains work on the "fancy" [FinTS API](https://www.hbci-zka.de/spec/3_0.htm). 
 
 <img src='/images/starmoney-logo.webp' alt="Jimdo Creator Logo" class="app-contribution-logo" /> 
+
 [StarMoney](https://play.google.com/store/apps/details?id=com.starfinanz.smob.android.starmoney)  
+
 Technically almost like Sparkasse
 
 <img src='/images/jimdo-creator-logo.webp' alt="Jimdo Creator Logo" class="app-contribution-logo" /> 
+
 [Jimdo Creator](https://play.google.com/store/apps/details?id=com.jimdo)  
+
 Create websites or manage your existing website. Also: Manage web shop orders, read website statistics and more... 
 
 <img src='/images/jimdo-live-chat-logo.webp' alt="Jimdo Live Chat Logo" class="app-contribution-logo" />
+
 [Jimdo Live Chat](https://play.google.com/store/apps/details?id=com.jimdo.livechat)  
+
 Hook up with your website visitors and support them via Chat. The work on this app also contained the JS widget, used by the website visitors. 
 
 <img src='/images/jimdo-boost-logo.webp' alt="Jimdo Creator Logo" class="app-contribution-logo" /> 
+
 [Jimdo Boost](https://play.google.com/store/apps/details?id=com.jimdo.flipper)  
+
 With Boost the website owner can check a couple of statistics for her website. This app was initially developed with [Flutter](https://flutter.dev).
 
 <img src='/images/coyo-engage-logo.webp' alt="Jimdo Creator Logo" class="app-contribution-logo" /> 
+
 [COYO Engage](https://play.google.com/store/apps/details?id=com.coyoapp.messenger.android)  
+
 Messaging and news reader for employees. 
 
 </div>
