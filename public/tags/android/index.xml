@@ -2,47 +2,47 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Android on Jörn Ahrens</title>
-    <link>//localhost:1313/tags/android/</link>
+    <link>/tags/android/</link>
     <description>Recent content in Android on Jörn Ahrens</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <managingEditor>mail@joernahrens.de (Jörn Ahrens)</managingEditor>
     <webMaster>mail@joernahrens.de (Jörn Ahrens)</webMaster>
     <lastBuildDate>Wed, 13 May 2020 16:41:45 +0200</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/android/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/android/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Android Window Insets</title>
-      <link>//localhost:1313/posts/android-window-insets/</link>
+      <link>/posts/android-window-insets/</link>
       <pubDate>Wed, 13 May 2020 16:41:45 +0200</pubDate><author>mail@joernahrens.de (Jörn Ahrens)</author>
-      <guid>//localhost:1313/posts/android-window-insets/</guid>
+      <guid>/posts/android-window-insets/</guid>
       <description>&lt;p&gt;Please keep this in mind forever: &lt;a href=&#34;https://chris.banes.dev/talks/2017/becoming-a-master-window-fitter-lon/&#34;&gt;https://chris.banes.dev/talks/2017/becoming-a-master-window-fitter-lon/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Good talk about how to draw content below status and navigation bar. Also covers &lt;strong&gt;window insets&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A couple of scripts for Emulator in the CI system</title>
-      <link>//localhost:1313/posts/genymotion-to-emulator/</link>
+      <link>/posts/genymotion-to-emulator/</link>
       <pubDate>Mon, 23 Dec 2019 13:55:15 +0100</pubDate><author>mail@joernahrens.de (Jörn Ahrens)</author>
-      <guid>//localhost:1313/posts/genymotion-to-emulator/</guid>
+      <guid>/posts/genymotion-to-emulator/</guid>
       <description>&lt;p&gt;Follow this path: &lt;a href=&#34;https://pspdfkit.com/blog/2019/our-journey-from-genymotion-to-the-android-emulator/&#34;&gt;Our Journey from Genymotion to the Android Emulator&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;This contains a couple of useful scripts to automate AVD management and such.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Android Screenshot Script</title>
-      <link>//localhost:1313/posts/android-screenshot-script/</link>
+      <link>/posts/android-screenshot-script/</link>
       <pubDate>Mon, 19 Mar 2018 20:51:41 +0100</pubDate><author>mail@joernahrens.de (Jörn Ahrens)</author>
-      <guid>//localhost:1313/posts/android-screenshot-script/</guid>
+      <guid>/posts/android-screenshot-script/</guid>
       <description>&lt;p&gt;Currently I&amp;rsquo;m trying a lot of automated UI testing on emulators.&lt;/p&gt;&#xA;&lt;p&gt;This could be really helpful in the near future:&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://gist.github.com/hkurokawa/75b44564cc1491b5f4a2&#34;&gt;adb-screenshot.sh&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Create an AVD from CLI</title>
-      <link>//localhost:1313/posts/avd-from-commandline/</link>
+      <link>/posts/avd-from-commandline/</link>
       <pubDate>Wed, 15 Mar 2017 10:55:59 +0100</pubDate><author>mail@joernahrens.de (Jörn Ahrens)</author>
-      <guid>//localhost:1313/posts/avd-from-commandline/</guid>
+      <guid>/posts/avd-from-commandline/</guid>
       <description>&lt;p&gt;I always struggle googling this, so that&amp;rsquo;s why it&amp;rsquo;s here for my future me:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ ~/.android-sdk/tools/android create avd -n api-22 --target &amp;#34;Google Inc.:Google APIs:22&amp;#34; -b google_apis/x86_64 --force -c 512M -s 720x1280&#xA;$ echo &amp;#34;disk.dataPartition.size=1024MB&amp;#34; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini&#xA;$ echo &amp;#34;hw.lcd.density=280&amp;#34; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini&#xA;$ echo &amp;#34;hw.ramSize=1536&amp;#34; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini&#xA;$ echo &amp;#34;hw.keyboard=yes&amp;#34; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini&#xA;$ echo &amp;#34;showDeviceFrame=no&amp;#34; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini&#xA;$ echo &amp;#34;skin.dynamic=yes&amp;#34; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini&#xA;$ echo &amp;#34;skin.path=_no_skin&amp;#34; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini&#xA;$ echo &amp;#34;skin.path.backup=_no_skin&amp;#34; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini&#xA;$ echo &amp;#34;avd.ini.encoding=UTF-8&amp;#34; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     <item>
       <title>6 tips to speed up your Gradle build</title>
-      <link>//localhost:1313/posts/speed-up-gradle/</link>
+      <link>/posts/speed-up-gradle/</link>
       <pubDate>Sat, 27 Feb 2016 09:50:18 +0100</pubDate><author>mail@joernahrens.de (Jörn Ahrens)</author>
-      <guid>//localhost:1313/posts/speed-up-gradle/</guid>
+      <guid>/posts/speed-up-gradle/</guid>
       <description>&lt;p&gt;Some helpful tips. And additionally try &lt;code&gt;--offline&lt;/code&gt;..&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://medium.com/@shelajev/6-tips-to-speed-up-your-gradle-build-3d98791d3df9#.gnibwralv%22%3Ehttps://medium.com/@shelajev/6-tips-to-speed-up-your-gradle-build-3d98791d3df9#.gnibwralv&#34;&gt;6 tips to speed up your Gradle build&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>

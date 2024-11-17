@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CI on Jörn Ahrens</title>
-    <link>//localhost:1313/tags/ci/</link>
+    <link>/tags/ci/</link>
     <description>Recent content in CI on Jörn Ahrens</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <managingEditor>mail@joernahrens.de (Jörn Ahrens)</managingEditor>
     <webMaster>mail@joernahrens.de (Jörn Ahrens)</webMaster>
     <lastBuildDate>Mon, 23 Dec 2019 13:55:15 +0100</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/ci/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/ci/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A couple of scripts for Emulator in the CI system</title>
-      <link>//localhost:1313/posts/genymotion-to-emulator/</link>
+      <link>/posts/genymotion-to-emulator/</link>
       <pubDate>Mon, 23 Dec 2019 13:55:15 +0100</pubDate><author>mail@joernahrens.de (Jörn Ahrens)</author>
-      <guid>//localhost:1313/posts/genymotion-to-emulator/</guid>
+      <guid>/posts/genymotion-to-emulator/</guid>
       <description>&lt;p&gt;Follow this path: &lt;a href=&#34;https://pspdfkit.com/blog/2019/our-journey-from-genymotion-to-the-android-emulator/&#34;&gt;Our Journey from Genymotion to the Android Emulator&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;This contains a couple of useful scripts to automate AVD management and such.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Android Screenshot Script</title>
-      <link>//localhost:1313/posts/android-screenshot-script/</link>
+      <link>/posts/android-screenshot-script/</link>
       <pubDate>Mon, 19 Mar 2018 20:51:41 +0100</pubDate><author>mail@joernahrens.de (Jörn Ahrens)</author>
-      <guid>//localhost:1313/posts/android-screenshot-script/</guid>
+      <guid>/posts/android-screenshot-script/</guid>
       <description>&lt;p&gt;Currently I&amp;rsquo;m trying a lot of automated UI testing on emulators.&lt;/p&gt;&#xA;&lt;p&gt;This could be really helpful in the near future:&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://gist.github.com/hkurokawa/75b44564cc1491b5f4a2&#34;&gt;adb-screenshot.sh&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>

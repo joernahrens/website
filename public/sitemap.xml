@@ -2,91 +2,91 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/tags/android/</loc>
+    <loc>/tags/android/</loc>
     <lastmod>2020-05-13T16:41:45+02:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/android-window-insets/</loc>
+    <loc>/posts/android-window-insets/</loc>
     <lastmod>2020-05-13T16:41:45+02:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/</loc>
+    <loc>/</loc>
     <lastmod>2020-05-13T16:41:45+02:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/</loc>
+    <loc>/posts/</loc>
     <lastmod>2020-05-13T16:41:45+02:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2020-05-13T16:41:45+02:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/dark-mode-hidden/</loc>
+    <loc>/posts/dark-mode-hidden/</loc>
     <lastmod>2020-02-21T15:37:30+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/untagged/</loc>
+    <loc>/tags/untagged/</loc>
     <lastmod>2020-02-21T15:37:30+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/viewpager2-with-fragments/</loc>
+    <loc>/posts/viewpager2-with-fragments/</loc>
     <lastmod>2020-01-30T09:19:13+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/genymotion-to-emulator/</loc>
+    <loc>/posts/genymotion-to-emulator/</loc>
     <lastmod>2019-12-23T13:55:15+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/ci/</loc>
+    <loc>/tags/ci/</loc>
     <lastmod>2019-12-23T13:55:15+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/emulator/</loc>
+    <loc>/tags/emulator/</loc>
     <lastmod>2019-12-23T13:55:15+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/contact/</loc>
+    <loc>/contact/</loc>
     <lastmod>2019-12-22T17:22:28+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/about/</loc>
+    <loc>/about/</loc>
     <lastmod>2019-12-22T17:05:58+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/android-screenshot-script/</loc>
+    <loc>/posts/android-screenshot-script/</loc>
     <lastmod>2018-03-19T20:51:41+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/backend/</loc>
+    <loc>/tags/backend/</loc>
     <lastmod>2018-01-26T19:36:50+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/kotlin/</loc>
+    <loc>/tags/kotlin/</loc>
     <lastmod>2018-01-26T19:36:50+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/ktor/</loc>
+    <loc>/posts/ktor/</loc>
     <lastmod>2018-01-26T19:36:50+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/dart/</loc>
+    <loc>/tags/dart/</loc>
     <lastmod>2018-01-23T20:42:54+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/dart-swagger/</loc>
+    <loc>/posts/dart-swagger/</loc>
     <lastmod>2018-01-23T20:42:54+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/swagger/</loc>
+    <loc>/tags/swagger/</loc>
     <lastmod>2018-01-23T20:42:54+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/git/</loc>
+    <loc>/tags/git/</loc>
     <lastmod>2018-01-23T20:39:12+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/git-aliases/</loc>
+    <loc>/posts/git-aliases/</loc>
     <lastmod>2018-01-23T20:39:12+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/bash/</loc>
+    <loc>/tags/bash/</loc>
     <lastmod>2017-03-30T22:35:51+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/bash-current-dir/</loc>
+    <loc>/posts/bash-current-dir/</loc>
     <lastmod>2017-03-30T22:35:51+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/avd-from-commandline/</loc>
+    <loc>/posts/avd-from-commandline/</loc>
     <lastmod>2017-03-15T10:55:59+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/speed-up-gradle/</loc>
+    <loc>/posts/speed-up-gradle/</loc>
     <lastmod>2016-02-27T09:50:18+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/agile/</loc>
+    <loc>/tags/agile/</loc>
     <lastmod>2015-11-01T19:44:27+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/change-isnt-free/</loc>
+    <loc>/posts/change-isnt-free/</loc>
     <lastmod>2015-11-01T19:44:27+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/po-tech-debt/</loc>
+    <loc>/posts/po-tech-debt/</loc>
     <lastmod>2015-10-29T19:41:53+01:00</lastmod>
   </url>
 </urlset>

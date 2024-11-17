@@ -2,89 +2,89 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Jörn Ahrens</title>
-    <link>//localhost:1313/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Jörn Ahrens</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <managingEditor>mail@joernahrens.de (Jörn Ahrens)</managingEditor>
     <webMaster>mail@joernahrens.de (Jörn Ahrens)</webMaster>
     <lastBuildDate>Wed, 13 May 2020 16:41:45 +0200</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Android</title>
-      <link>//localhost:1313/tags/android/</link>
+      <link>/tags/android/</link>
       <pubDate>Wed, 13 May 2020 16:41:45 +0200</pubDate><author>mail@joernahrens.de (Jörn Ahrens)</author>
-      <guid>//localhost:1313/tags/android/</guid>
+      <guid>/tags/android/</guid>
       <description></description>
     </item>
     <item>
       <title>Untagged</title>
-      <link>//localhost:1313/tags/untagged/</link>
+      <link>/tags/untagged/</link>
       <pubDate>Fri, 21 Feb 2020 15:37:30 +0100</pubDate><author>mail@joernahrens.de (Jörn Ahrens)</author>
-      <guid>//localhost:1313/tags/untagged/</guid>
+      <guid>/tags/untagged/</guid>
       <description></description>
     </item>
     <item>
       <title>CI</title>
-      <link>//localhost:1313/tags/ci/</link>
+      <link>/tags/ci/</link>
       <pubDate>Mon, 23 Dec 2019 13:55:15 +0100</pubDate><author>mail@joernahrens.de (Jörn Ahrens)</author>
-      <guid>//localhost:1313/tags/ci/</guid>
+      <guid>/tags/ci/</guid>
       <description></description>
     </item>
     <item>
       <title>Emulator</title>
-      <link>//localhost:1313/tags/emulator/</link>
+      <link>/tags/emulator/</link>
       <pubDate>Mon, 23 Dec 2019 13:55:15 +0100</pubDate><author>mail@joernahrens.de (Jörn Ahrens)</author>
-      <guid>//localhost:1313/tags/emulator/</guid>
+      <guid>/tags/emulator/</guid>
       <description></description>
     </item>
     <item>
       <title>Backend</title>
-      <link>//localhost:1313/tags/backend/</link>
+      <link>/tags/backend/</link>
       <pubDate>Fri, 26 Jan 2018 19:36:50 +0100</pubDate><author>mail@joernahrens.de (Jörn Ahrens)</author>
-      <guid>//localhost:1313/tags/backend/</guid>
+      <guid>/tags/backend/</guid>
       <description></description>
     </item>
     <item>
       <title>Kotlin</title>
-      <link>//localhost:1313/tags/kotlin/</link>
+      <link>/tags/kotlin/</link>
       <pubDate>Fri, 26 Jan 2018 19:36:50 +0100</pubDate><author>mail@joernahrens.de (Jörn Ahrens)</author>
-      <guid>//localhost:1313/tags/kotlin/</guid>
+      <guid>/tags/kotlin/</guid>
       <description></description>
     </item>
     <item>
       <title>Dart</title>
-      <link>//localhost:1313/tags/dart/</link>
+      <link>/tags/dart/</link>
       <pubDate>Tue, 23 Jan 2018 20:42:54 +0100</pubDate><author>mail@joernahrens.de (Jörn Ahrens)</author>
-      <guid>//localhost:1313/tags/dart/</guid>
+      <guid>/tags/dart/</guid>
       <description></description>
     </item>
     <item>
       <title>Swagger</title>
-      <link>//localhost:1313/tags/swagger/</link>
+      <link>/tags/swagger/</link>
       <pubDate>Tue, 23 Jan 2018 20:42:54 +0100</pubDate><author>mail@joernahrens.de (Jörn Ahrens)</author>
-      <guid>//localhost:1313/tags/swagger/</guid>
+      <guid>/tags/swagger/</guid>
       <description></description>
     </item>
     <item>
       <title>Git</title>
-      <link>//localhost:1313/tags/git/</link>
+      <link>/tags/git/</link>
       <pubDate>Tue, 23 Jan 2018 20:39:12 +0100</pubDate><author>mail@joernahrens.de (Jörn Ahrens)</author>
-      <guid>//localhost:1313/tags/git/</guid>
+      <guid>/tags/git/</guid>
       <description></description>
     </item>
     <item>
       <title>Bash</title>
-      <link>//localhost:1313/tags/bash/</link>
+      <link>/tags/bash/</link>
       <pubDate>Thu, 30 Mar 2017 22:35:51 +0100</pubDate><author>mail@joernahrens.de (Jörn Ahrens)</author>
-      <guid>//localhost:1313/tags/bash/</guid>
+      <guid>/tags/bash/</guid>
       <description></description>
     </item>
     <item>
       <title>Agile</title>
-      <link>//localhost:1313/tags/agile/</link>
+      <link>/tags/agile/</link>
       <pubDate>Sun, 01 Nov 2015 19:44:27 +0100</pubDate><author>mail@joernahrens.de (Jörn Ahrens)</author>
-      <guid>//localhost:1313/tags/agile/</guid>
+      <guid>/tags/agile/</guid>
       <description></description>
     </item>
   </channel>
