@@ -2,169 +2,118 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jörn Ahrens</title>
-    <link>/</link>
+    <link>//localhost:1313/</link>
     <description>Recent content on Jörn Ahrens</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 May 2020 16:41:45 +0200</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>mail@joernahrens.de (Jörn Ahrens)</managingEditor>
+    <webMaster>mail@joernahrens.de (Jörn Ahrens)</webMaster>
+    <lastBuildDate>Wed, 13 May 2020 16:41:45 +0200</lastBuildDate>
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Android Window Insets</title>
-      <link>/posts/android-window-insets/</link>
-      <pubDate>Wed, 13 May 2020 16:41:45 +0200</pubDate>
-      
-      <guid>/posts/android-window-insets/</guid>
-      <description>Please keep this in mind forever: https://chris.banes.dev/talks/2017/becoming-a-master-window-fitter-lon/
-Good talk about how to draw content below status and navigation bar. Also covers window insets.</description>
+      <link>//localhost:1313/posts/android-window-insets/</link>
+      <pubDate>Wed, 13 May 2020 16:41:45 +0200</pubDate><author>mail@joernahrens.de (Jörn Ahrens)</author>
+      <guid>//localhost:1313/posts/android-window-insets/</guid>
+      <description>&lt;p&gt;Please keep this in mind forever: &lt;a href=&#34;https://chris.banes.dev/talks/2017/becoming-a-master-window-fitter-lon/&#34;&gt;https://chris.banes.dev/talks/2017/becoming-a-master-window-fitter-lon/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Good talk about how to draw content below status and navigation bar. Also covers &lt;strong&gt;window insets&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Dark Mode Hidden</title>
-      <link>/posts/dark-mode-hidden/</link>
-      <pubDate>Fri, 21 Feb 2020 15:37:30 +0100</pubDate>
-      
-      <guid>/posts/dark-mode-hidden/</guid>
-      <description>The dark mode setting for &amp;ldquo;Depend on time&amp;rdquo; is gone, but still there.
-Thanks to: https://www.androidpolice.com/2019/03/13/android-q-beta-doesnt-have-a-dark-mode-toggle-so-turn-it-off-or-on-before-upgrading/ 🎉
-If you want to enable dark mode, enter: adb shell settings put secure ui_night_mode 2
-If you want to disable dark mode, enter: adb shell settings put secure ui_night_mode 1
-If you want to set it to auto, enter: adb shell settings put secure ui_night_mode 0</description>
+      <link>//localhost:1313/posts/dark-mode-hidden/</link>
+      <pubDate>Fri, 21 Feb 2020 15:37:30 +0100</pubDate><author>mail@joernahrens.de (Jörn Ahrens)</author>
+      <guid>//localhost:1313/posts/dark-mode-hidden/</guid>
+      <description>&lt;p&gt;The dark mode setting for &amp;ldquo;Depend on time&amp;rdquo; is gone, but still there.&lt;/p&gt;&#xA;&lt;p&gt;Thanks to: &lt;a href=&#34;https://www.androidpolice.com/2019/03/13/android-q-beta-doesnt-have-a-dark-mode-toggle-so-turn-it-off-or-on-before-upgrading/&#34;&gt;https://www.androidpolice.com/2019/03/13/android-q-beta-doesnt-have-a-dark-mode-toggle-so-turn-it-off-or-on-before-upgrading/&lt;/a&gt; 🎉&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;If you want to enable dark mode, enter: &lt;code&gt;adb shell settings put secure ui_night_mode 2&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;If you want to disable dark mode, enter: &lt;code&gt;adb shell settings put secure ui_night_mode 1&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;If you want to set it to auto, enter: &lt;code&gt;adb shell settings put secure ui_night_mode 0&lt;/code&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
     </item>
-    
     <item>
       <title>Viewpager2 With Fragments</title>
-      <link>/posts/viewpager2-with-fragments/</link>
-      <pubDate>Thu, 30 Jan 2020 09:19:13 +0100</pubDate>
-      
-      <guid>/posts/viewpager2-with-fragments/</guid>
-      <description>Just a note to my future me, since I saw a weird behavior of ViewPager2 together with a TabLayout and a FragmentStateAdapter.
-The default behavior seems to be, not to &amp;ldquo;warm up&amp;rdquo; the next fragments. To achieve this, set:
-yourViewPager.offscreenPageLimit = 1 You can of course set higher numbers, which will cause more fragments to be preloaded.</description>
+      <link>//localhost:1313/posts/viewpager2-with-fragments/</link>
+      <pubDate>Thu, 30 Jan 2020 09:19:13 +0100</pubDate><author>mail@joernahrens.de (Jörn Ahrens)</author>
+      <guid>//localhost:1313/posts/viewpager2-with-fragments/</guid>
+      <description>&lt;p&gt;Just a note to my future me, since I saw a weird behavior of &lt;a href=&#34;https://developer.android.com/reference/androidx/viewpager2/widget/ViewPager2.html&#34;&gt;ViewPager2&lt;/a&gt; together with a &lt;code&gt;TabLayout&lt;/code&gt; and a &lt;code&gt;FragmentStateAdapter&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;p&gt;The default behavior seems to be, not to &amp;ldquo;warm up&amp;rdquo; the next fragments. To achieve this, set:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-kotlin&#34; data-lang=&#34;kotlin&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;yourViewPager.offscreenPageLimit = &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You can of course set higher numbers, which will cause more fragments to be preloaded.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>A couple of scripts for Emulator in the CI system</title>
-      <link>/posts/genymotion-to-emulator/</link>
-      <pubDate>Mon, 23 Dec 2019 13:55:15 +0100</pubDate>
-      
-      <guid>/posts/genymotion-to-emulator/</guid>
-      <description>Follow this path: Our Journey from Genymotion to the Android Emulator
-This contains a couple of useful scripts to automate AVD management and such.</description>
+      <link>//localhost:1313/posts/genymotion-to-emulator/</link>
+      <pubDate>Mon, 23 Dec 2019 13:55:15 +0100</pubDate><author>mail@joernahrens.de (Jörn Ahrens)</author>
+      <guid>//localhost:1313/posts/genymotion-to-emulator/</guid>
+      <description>&lt;p&gt;Follow this path: &lt;a href=&#34;https://pspdfkit.com/blog/2019/our-journey-from-genymotion-to-the-android-emulator/&#34;&gt;Our Journey from Genymotion to the Android Emulator&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;This contains a couple of useful scripts to automate AVD management and such.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Contact</title>
-      <link>/contact/</link>
-      <pubDate>Sun, 22 Dec 2019 17:22:28 +0100</pubDate>
-      
-      <guid>/contact/</guid>
-      <description>Imprint Jörn Ahrens
-Quickborner Straße 72 h
-22844 Norderstedt
-Let&amp;rsquo;s talk Phone: 0176 23497907
-Mail: mail@joernahrens.de</description>
+      <link>//localhost:1313/contact/</link>
+      <pubDate>Sun, 22 Dec 2019 17:22:28 +0100</pubDate><author>mail@joernahrens.de (Jörn Ahrens)</author>
+      <guid>//localhost:1313/contact/</guid>
+      <description>&lt;h3 id=&#34;imprint&#34;&gt;Imprint&lt;/h3&gt;&#xA;&lt;p&gt;Jörn Ahrens&lt;br /&gt;&#xA;Quickborner Straße 72 h&lt;br /&gt;&#xA;22844 Norderstedt&lt;/p&gt;&#xA;&lt;h3 id=&#34;lets-talk&#34;&gt;Let&amp;rsquo;s talk&lt;/h3&gt;&#xA;&lt;p&gt;Phone: &lt;a href=&#34;tel:017623497907&#34;&gt;0176 23497907&lt;/a&gt;&lt;br /&gt;&#xA;Mail: &lt;a href=&#34;mailto:mail@joernahrens.de&#34;&gt;mail@joernahrens.de&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>About me</title>
-      <link>/about/</link>
-      <pubDate>Sun, 22 Dec 2019 17:05:58 +0100</pubDate>
-      
-      <guid>/about/</guid>
-      <description>Short CV Born in Hamburg, 1980 Studied Computer Engineering at the University of Applied Sciences Wedel, completed 2005 Having worked as developer, team lead and architect professionally since 2005 Started with backend development, focused on Android Development since end of 2009 Skillsheet 💬 Programming Languages: Java, Kotlin, Dart, TypeScript, JavaScript, Go, Bash
-🏠 Platforms: Android, Flutter, Firebase, AWS
-🤝 API technologies: REST, Swagger/OpenAPI, GRPC/Protobuf, Thrift
-⚙️ CI: Circle CI, GitHub Actions, Travis</description>
+      <link>//localhost:1313/about/</link>
+      <pubDate>Sun, 22 Dec 2019 17:05:58 +0100</pubDate><author>mail@joernahrens.de (Jörn Ahrens)</author>
+      <guid>//localhost:1313/about/</guid>
+      <description>&lt;h2 id=&#34;short-cv&#34;&gt;Short CV&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Born in Hamburg, 1980&lt;/li&gt;&#xA;&lt;li&gt;Studied Computer Engineering at the University of Applied Sciences Wedel, completed 2005&lt;/li&gt;&#xA;&lt;li&gt;Having worked as developer, team lead and architect professionally since 2005&lt;/li&gt;&#xA;&lt;li&gt;Started with backend development, focused on Android Development since end of 2009&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;skillsheet&#34;&gt;Skillsheet&lt;/h2&gt;&#xA;&lt;p&gt;💬 &lt;strong&gt;Programming Languages&lt;/strong&gt;: Java, Kotlin, Dart, TypeScript, JavaScript, Go, Bash&lt;br /&gt;&#xA;🏠 &lt;strong&gt;Platforms&lt;/strong&gt;: Android, Flutter, Firebase, AWS&lt;br /&gt;&#xA;🤝 &lt;strong&gt;API technologies&lt;/strong&gt;: REST, Swagger/OpenAPI, GRPC/Protobuf, Thrift&lt;br /&gt;&#xA;⚙️ &lt;strong&gt;CI&lt;/strong&gt;: Circle CI, GitHub Actions, Travis&lt;br /&gt;&#xA;💾 &lt;strong&gt;Databases&lt;/strong&gt;: MySQL, PostgreSQL, sqlite + sqlcipher, Oracle&lt;br /&gt;&#xA;✅ &lt;strong&gt;Testing&lt;/strong&gt;: JUnit, TestNG, Spock, jest&lt;br /&gt;&#xA;🗣 &lt;strong&gt;Languages&lt;/strong&gt;: German (first language), English (fluent)&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Android Screenshot Script</title>
-      <link>/posts/android-screenshot-script/</link>
-      <pubDate>Mon, 19 Mar 2018 20:51:41 +0100</pubDate>
-      
-      <guid>/posts/android-screenshot-script/</guid>
-      <description>Currently I&amp;rsquo;m trying a lot of automated UI testing on emulators.
-This could be really helpful in the near future:
-adb-screenshot.sh</description>
+      <link>//localhost:1313/posts/android-screenshot-script/</link>
+      <pubDate>Mon, 19 Mar 2018 20:51:41 +0100</pubDate><author>mail@joernahrens.de (Jörn Ahrens)</author>
+      <guid>//localhost:1313/posts/android-screenshot-script/</guid>
+      <description>&lt;p&gt;Currently I&amp;rsquo;m trying a lot of automated UI testing on emulators.&lt;/p&gt;&#xA;&lt;p&gt;This could be really helpful in the near future:&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://gist.github.com/hkurokawa/75b44564cc1491b5f4a2&#34;&gt;adb-screenshot.sh&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Ktor - Server Framework</title>
-      <link>/posts/ktor/</link>
-      <pubDate>Fri, 26 Jan 2018 19:36:50 +0100</pubDate>
-      
-      <guid>/posts/ktor/</guid>
-      <description>Just wanted to note ktor, a really nice kotlin framework to easily create server applications. For example, defining a REST API, looks as simple as this:
-install(Routing) { get(&amp;#34;/foo&amp;#34;) { call.respondText(&amp;#34;bar&amp;#34;) } route(&amp;#34;api&amp;#34;) { intercept(ApplicationCallPipeline.Infrastructure) { AuthCheckInterceptor.intercept(this) } route(&amp;#34;cars&amp;#34;) { get { ListCarsHandler().doIt(this) } } } } Check their website or the github page</description>
+      <link>//localhost:1313/posts/ktor/</link>
+      <pubDate>Fri, 26 Jan 2018 19:36:50 +0100</pubDate><author>mail@joernahrens.de (Jörn Ahrens)</author>
+      <guid>//localhost:1313/posts/ktor/</guid>
+      <description>&lt;p&gt;Just wanted to note ktor, a really nice kotlin framework to easily create server applications. For example, defining a REST API, looks as simple as this:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;install(Routing) {&#xA;    get(&amp;#34;/foo&amp;#34;) {&#xA;        call.respondText(&amp;#34;bar&amp;#34;)&#xA;    }&#xA;    route(&amp;#34;api&amp;#34;) {&#xA;        intercept(ApplicationCallPipeline.Infrastructure) {&#xA;            AuthCheckInterceptor.intercept(this)&#xA;        }&#xA;        route(&amp;#34;cars&amp;#34;) {&#xA;            get {&#xA;                ListCarsHandler().doIt(this)&#xA;            }&#xA;        }&#xA;    }&#xA;}&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Check &lt;a href=&#34;http://ktor.io/&#34;&gt;their website&lt;/a&gt; or the &lt;a href=&#34;https://github.com/ktorio/ktor&#34;&gt;github page&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Dart Client Generator for swagger</title>
-      <link>/posts/dart-swagger/</link>
-      <pubDate>Tue, 23 Jan 2018 20:42:54 +0100</pubDate>
-      
-      <guid>/posts/dart-swagger/</guid>
-      <description>I&amp;rsquo;m really proud that I successfully did my first open-source contribution to a &amp;ldquo;relevant&amp;rdquo; project. While trying to create a swagger client library for the dart language, I noticed, that the generated code wasn&amp;rsquo;t working for Flutter. The reason for this is the lack of dart:mirrors support in the flutter framework. The generated code was using dartson which relies on dart:mirrors.
-I reworked the dart client that it doesn&amp;rsquo;t rely on dartson, but works without any further dependencies (pull request).</description>
+      <link>//localhost:1313/posts/dart-swagger/</link>
+      <pubDate>Tue, 23 Jan 2018 20:42:54 +0100</pubDate><author>mail@joernahrens.de (Jörn Ahrens)</author>
+      <guid>//localhost:1313/posts/dart-swagger/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m really proud that I successfully did my first open-source contribution to a &amp;ldquo;relevant&amp;rdquo; project. While trying to create a &lt;a href=&#34;https://swagger.io/&#34;&gt;swagger&lt;/a&gt; client library for the dart language, I noticed, that the generated code wasn&amp;rsquo;t working for &lt;a href=&#34;https://flutter.io/&#34;&gt;Flutter&lt;/a&gt;. The reason for this is the lack of &lt;a href=&#34;https://api.dartlang.org/stable/1.24.3/dart-mirrors/dart-mirrors-library.html&#34;&gt;dart:mirrors&lt;/a&gt; support in the flutter framework. The generated code was using &lt;a href=&#34;https://pub.dartlang.org/packages/dartson&#34;&gt;dartson&lt;/a&gt; which relies on &lt;code&gt;dart:mirrors&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;p&gt;I reworked the dart client that it doesn&amp;rsquo;t rely on dartson, but works without any further dependencies (&lt;a href=&#34;https://github.com/swagger-api/swagger-codegen/pull/7418&#34;&gt;pull request&lt;/a&gt;).&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Git Aliases</title>
-      <link>/posts/git-aliases/</link>
-      <pubDate>Tue, 23 Jan 2018 20:39:12 +0100</pubDate>
-      
-      <guid>/posts/git-aliases/</guid>
-      <description>Shell aliases $ alias | grep git alias delete-merged-branches=&amp;#39;git branch --merged | grep -v &amp;#39;\&amp;#39;&amp;#39;\*&amp;#39;\&amp;#39;&amp;#39; | xargs -n 1 git branch -d&amp;#39; alias g=&amp;#39;git status&amp;#39; alias gcam=&amp;#39;git commit -am&amp;#39; alias gd=&amp;#39;git diff&amp;#39; alias gf=&amp;#39;git fetch&amp;#39; alias git=&amp;#39;hub&amp;#39; alias gl=&amp;#39;git pull --prune&amp;#39; alias gp=&amp;#39;git push&amp;#39; alias gpoh=&amp;#39;git push -u origin HEAD&amp;#39; alias gpr=&amp;#39;git pull-request&amp;#39; git aliases [alias] co = checkout please = push --force-with-lease amend = commit --amend --no-edit unstage = reset - </description>
+      <link>//localhost:1313/posts/git-aliases/</link>
+      <pubDate>Tue, 23 Jan 2018 20:39:12 +0100</pubDate><author>mail@joernahrens.de (Jörn Ahrens)</author>
+      <guid>//localhost:1313/posts/git-aliases/</guid>
+      <description>&lt;h3 id=&#34;shell-aliases&#34;&gt;Shell aliases&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ alias | grep git&#xA;alias delete-merged-branches=&amp;#39;git branch --merged | grep -v &amp;#39;\&amp;#39;&amp;#39;\*&amp;#39;\&amp;#39;&amp;#39; | xargs -n 1 git branch -d&amp;#39;&#xA;alias g=&amp;#39;git status&amp;#39;&#xA;alias gcam=&amp;#39;git commit -am&amp;#39;&#xA;alias gd=&amp;#39;git diff&amp;#39;&#xA;alias gf=&amp;#39;git fetch&amp;#39;&#xA;alias git=&amp;#39;hub&amp;#39;&#xA;alias gl=&amp;#39;git pull --prune&amp;#39;&#xA;alias gp=&amp;#39;git push&amp;#39;&#xA;alias gpoh=&amp;#39;git push -u origin HEAD&amp;#39;&#xA;alias gpr=&amp;#39;git pull-request&amp;#39;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;git-aliases&#34;&gt;git aliases&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;[alias]&#xA;co = checkout&#xA;please = push --force-with-lease&#xA;amend = commit --amend --no-edit&#xA;unstage = reset -&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
-    
     <item>
       <title>Bash get current directory</title>
-      <link>/posts/bash-current-dir/</link>
-      <pubDate>Thu, 30 Mar 2017 22:35:51 +0100</pubDate>
-      
-      <guid>/posts/bash-current-dir/</guid>
-      <description>Bash, get directory where the script is located:
-SCRIPT_SRC_DIR=&amp;#34;$( cd &amp;#34;$( dirname &amp;#34;${BASH_SOURCE[0]}&amp;#34; )&amp;#34; &amp;amp;&amp;amp; pwd )&amp;#34; </description>
+      <link>//localhost:1313/posts/bash-current-dir/</link>
+      <pubDate>Thu, 30 Mar 2017 22:35:51 +0100</pubDate><author>mail@joernahrens.de (Jörn Ahrens)</author>
+      <guid>//localhost:1313/posts/bash-current-dir/</guid>
+      <description>&lt;p&gt;Bash, get directory where the script is located:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;SCRIPT_SRC_DIR=&amp;#34;$( cd &amp;#34;$( dirname &amp;#34;${BASH_SOURCE[0]}&amp;#34; )&amp;#34; &amp;amp;&amp;amp; pwd )&amp;#34;&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
-    
     <item>
       <title>Create an AVD from CLI</title>
-      <link>/posts/avd-from-commandline/</link>
-      <pubDate>Wed, 15 Mar 2017 10:55:59 +0100</pubDate>
-      
-      <guid>/posts/avd-from-commandline/</guid>
-      <description>I always struggle googling this, so that&amp;rsquo;s why it&amp;rsquo;s here for my future me:
-$ ~/.android-sdk/tools/android create avd -n api-22 --target &amp;#34;Google Inc.:Google APIs:22&amp;#34; -b google_apis/x86_64 --force -c 512M -s 720x1280 $ echo &amp;#34;disk.dataPartition.size=1024MB&amp;#34; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;#34;hw.lcd.density=280&amp;#34; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;#34;hw.ramSize=1536&amp;#34; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;#34;hw.keyboard=yes&amp;#34; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;#34;showDeviceFrame=no&amp;#34; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;#34;skin.dynamic=yes&amp;#34; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;#34;skin.path=_no_skin&amp;#34; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;#34;skin.path.backup=_no_skin&amp;#34; &amp;gt;&amp;gt; ~/.</description>
+      <link>//localhost:1313/posts/avd-from-commandline/</link>
+      <pubDate>Wed, 15 Mar 2017 10:55:59 +0100</pubDate><author>mail@joernahrens.de (Jörn Ahrens)</author>
+      <guid>//localhost:1313/posts/avd-from-commandline/</guid>
+      <description>&lt;p&gt;I always struggle googling this, so that&amp;rsquo;s why it&amp;rsquo;s here for my future me:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ ~/.android-sdk/tools/android create avd -n api-22 --target &amp;#34;Google Inc.:Google APIs:22&amp;#34; -b google_apis/x86_64 --force -c 512M -s 720x1280&#xA;$ echo &amp;#34;disk.dataPartition.size=1024MB&amp;#34; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini&#xA;$ echo &amp;#34;hw.lcd.density=280&amp;#34; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini&#xA;$ echo &amp;#34;hw.ramSize=1536&amp;#34; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini&#xA;$ echo &amp;#34;hw.keyboard=yes&amp;#34; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini&#xA;$ echo &amp;#34;showDeviceFrame=no&amp;#34; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini&#xA;$ echo &amp;#34;skin.dynamic=yes&amp;#34; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini&#xA;$ echo &amp;#34;skin.path=_no_skin&amp;#34; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini&#xA;$ echo &amp;#34;skin.path.backup=_no_skin&amp;#34; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini&#xA;$ echo &amp;#34;avd.ini.encoding=UTF-8&amp;#34; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
-    
     <item>
       <title>6 tips to speed up your Gradle build</title>
-      <link>/posts/speed-up-gradle/</link>
-      <pubDate>Sat, 27 Feb 2016 09:50:18 +0100</pubDate>
-      
-      <guid>/posts/speed-up-gradle/</guid>
-      <description>Some helpful tips. And additionally try --offline..
-6 tips to speed up your Gradle build</description>
+      <link>//localhost:1313/posts/speed-up-gradle/</link>
+      <pubDate>Sat, 27 Feb 2016 09:50:18 +0100</pubDate><author>mail@joernahrens.de (Jörn Ahrens)</author>
+      <guid>//localhost:1313/posts/speed-up-gradle/</guid>
+      <description>&lt;p&gt;Some helpful tips. And additionally try &lt;code&gt;--offline&lt;/code&gt;..&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://medium.com/@shelajev/6-tips-to-speed-up-your-gradle-build-3d98791d3df9#.gnibwralv%22%3Ehttps://medium.com/@shelajev/6-tips-to-speed-up-your-gradle-build-3d98791d3df9#.gnibwralv&#34;&gt;6 tips to speed up your Gradle build&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Change isn&#39;t free</title>
-      <link>/posts/change-isnt-free/</link>
-      <pubDate>Sun, 01 Nov 2015 19:44:27 +0100</pubDate>
-      
-      <guid>/posts/change-isnt-free/</guid>
-      <description>http://www.mountaingoatsoftware.com/blog/change-isnt-free</description>
+      <link>//localhost:1313/posts/change-isnt-free/</link>
+      <pubDate>Sun, 01 Nov 2015 19:44:27 +0100</pubDate><author>mail@joernahrens.de (Jörn Ahrens)</author>
+      <guid>//localhost:1313/posts/change-isnt-free/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.mountaingoatsoftware.com/blog/change-isnt-free&#34;&gt;http://www.mountaingoatsoftware.com/blog/change-isnt-free&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>PO and technical debt</title>
-      <link>/posts/po-tech-debt/</link>
-      <pubDate>Thu, 29 Oct 2015 19:41:53 +0100</pubDate>
-      
-      <guid>/posts/po-tech-debt/</guid>
-      <description>Nice read:
-http://www.agileadvice.com/2015/10/24/howtoapplyagile/question-product-owner-and-technical-debt/
-As a product owner, what are the best ways to record technical debt and what are some approaches to prioritizing that work amid the continuous delivery of working software?</description>
+      <link>//localhost:1313/posts/po-tech-debt/</link>
+      <pubDate>Thu, 29 Oct 2015 19:41:53 +0100</pubDate><author>mail@joernahrens.de (Jörn Ahrens)</author>
+      <guid>//localhost:1313/posts/po-tech-debt/</guid>
+      <description>&lt;p&gt;Nice read:&lt;br /&gt;&#xA;&lt;a href=&#34;http://www.agileadvice.com/2015/10/24/howtoapplyagile/question-product-owner-and-technical-debt/&#34;&gt;http://www.agileadvice.com/2015/10/24/howtoapplyagile/question-product-owner-and-technical-debt/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;As a product owner, what are the best ways to record technical debt and what are some approaches to prioritizing that work amid the continuous delivery of working software?&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
     </item>
-    
   </channel>
 </rss>

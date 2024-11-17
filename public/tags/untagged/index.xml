@@ -1,24 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>untagged on Jörn Ahrens</title>
-    <link>/tags/untagged/</link>
-    <description>Recent content in untagged on Jörn Ahrens</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Untagged on Jörn Ahrens</title>
+    <link>//localhost:1313/tags/untagged/</link>
+    <description>Recent content in Untagged on Jörn Ahrens</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Feb 2020 15:37:30 +0100</lastBuildDate><atom:link href="/tags/untagged/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>mail@joernahrens.de (Jörn Ahrens)</managingEditor>
+    <webMaster>mail@joernahrens.de (Jörn Ahrens)</webMaster>
+    <lastBuildDate>Fri, 21 Feb 2020 15:37:30 +0100</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/untagged/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dark Mode Hidden</title>
-      <link>/posts/dark-mode-hidden/</link>
-      <pubDate>Fri, 21 Feb 2020 15:37:30 +0100</pubDate>
-      
-      <guid>/posts/dark-mode-hidden/</guid>
-      <description>The dark mode setting for &amp;ldquo;Depend on time&amp;rdquo; is gone, but still there.
-Thanks to: https://www.androidpolice.com/2019/03/13/android-q-beta-doesnt-have-a-dark-mode-toggle-so-turn-it-off-or-on-before-upgrading/ 🎉
-If you want to enable dark mode, enter: adb shell settings put secure ui_night_mode 2
-If you want to disable dark mode, enter: adb shell settings put secure ui_night_mode 1
-If you want to set it to auto, enter: adb shell settings put secure ui_night_mode 0</description>
+      <link>//localhost:1313/posts/dark-mode-hidden/</link>
+      <pubDate>Fri, 21 Feb 2020 15:37:30 +0100</pubDate><author>mail@joernahrens.de (Jörn Ahrens)</author>
+      <guid>//localhost:1313/posts/dark-mode-hidden/</guid>
+      <description>&lt;p&gt;The dark mode setting for &amp;ldquo;Depend on time&amp;rdquo; is gone, but still there.&lt;/p&gt;&#xA;&lt;p&gt;Thanks to: &lt;a href=&#34;https://www.androidpolice.com/2019/03/13/android-q-beta-doesnt-have-a-dark-mode-toggle-so-turn-it-off-or-on-before-upgrading/&#34;&gt;https://www.androidpolice.com/2019/03/13/android-q-beta-doesnt-have-a-dark-mode-toggle-so-turn-it-off-or-on-before-upgrading/&lt;/a&gt; 🎉&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;If you want to enable dark mode, enter: &lt;code&gt;adb shell settings put secure ui_night_mode 2&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;If you want to disable dark mode, enter: &lt;code&gt;adb shell settings put secure ui_night_mode 1&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;If you want to set it to auto, enter: &lt;code&gt;adb shell settings put secure ui_night_mode 0&lt;/code&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
     </item>
-    
   </channel>
 </rss>

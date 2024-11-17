@@ -1,54 +1,55 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "Jörn Ahrens"
-theme = "hermit" # Set the theme.
+theme = "hermit-v2" # Set the theme.
 defaultcontentlanguage = "en" # The default content language.
 
 [markup.goldmark.renderer]
-  unsafe = true
-  xHTML = true
+unsafe = true
+xHTML = true
 
 [taxonomies]
-  tag = "tags"
-  # Categories are disabled by default.
+tag = "tags"
+# Categories are disabled by default.
 
 [params] # theme parameters
-  dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04 -0700"
+dateform = "Jan 2, 2006"
+dateformShort = "Jan 2"
+dateformNum = "2006-01-02"
+dateformNumTime = "2006-01-02 15:04 -0700"
 
-  themeColor = "#32a852"
+themeColor = "#32a852"
+homeSubtitle = "Android developer since Cupcake"
+relatedPosts = true  # Add a related content section to all single posts page
 
-  author = "Jörn Ahrens" # Author's name.
-  homeSubtitle = "Android developer since Cupcake"
-
-  relatedPosts = true  # Add a related content section to all single posts page
+[params.author]
+name = "Jörn Ahrens"
+email = "mail@joernahrens.de"
 
 # Social links
 [[params.social]]
-    name = "github"
-    url = "https://github.com/joernahrens/"
+name = "github"
+url = "https://github.com/joernahrens/"
 [[params.social]]
-    name = "linkedin"
-    url = "https://www.linkedin.com/in/j%C3%B6rn-ahrens-398a81b0"
+name = "linkedin"
+url = "https://www.linkedin.com/in/j%C3%B6rn-ahrens-398a81b0"
 #[[params.social]]
 #    name = "stackoverflow"
 #    url = "https://stackoverflow.com/users/662444/jayearn"
 [[params.social]]
-    name = "email"
-    url = "mailto:mail@joernahrens.de"
+name = "email"
+url = "mailto:mail@joernahrens.de"
 
 # Menu links
 [[menu.main]]
-    name = "Blog"
-    weight = 1
-    url  = "/posts"
+name = "Blog"
+weight = 1
+url = "/posts"
 [[menu.main]]
-    name = "About"
-    weight = 2
-    url = "/about"
+name = "About"
+weight = 2
+url = "/about"
 [[menu.main]]
-    name = "Contact"
-    weight = 3
-    url = "/contact"
+name = "Contact"
+weight = 3
+url = "/contact"

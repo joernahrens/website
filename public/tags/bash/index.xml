@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bash on Jörn Ahrens</title>
-    <link>/tags/bash/</link>
+    <link>//localhost:1313/tags/bash/</link>
     <description>Recent content in Bash on Jörn Ahrens</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Mar 2017 22:35:51 +0100</lastBuildDate><atom:link href="/tags/bash/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>mail@joernahrens.de (Jörn Ahrens)</managingEditor>
+    <webMaster>mail@joernahrens.de (Jörn Ahrens)</webMaster>
+    <lastBuildDate>Thu, 30 Mar 2017 22:35:51 +0100</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/bash/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bash get current directory</title>
-      <link>/posts/bash-current-dir/</link>
-      <pubDate>Thu, 30 Mar 2017 22:35:51 +0100</pubDate>
-      
-      <guid>/posts/bash-current-dir/</guid>
-      <description>Bash, get directory where the script is located:
-SCRIPT_SRC_DIR=&amp;#34;$( cd &amp;#34;$( dirname &amp;#34;${BASH_SOURCE[0]}&amp;#34; )&amp;#34; &amp;amp;&amp;amp; pwd )&amp;#34; </description>
+      <link>//localhost:1313/posts/bash-current-dir/</link>
+      <pubDate>Thu, 30 Mar 2017 22:35:51 +0100</pubDate><author>mail@joernahrens.de (Jörn Ahrens)</author>
+      <guid>//localhost:1313/posts/bash-current-dir/</guid>
+      <description>&lt;p&gt;Bash, get directory where the script is located:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;SCRIPT_SRC_DIR=&amp;#34;$( cd &amp;#34;$( dirname &amp;#34;${BASH_SOURCE[0]}&amp;#34; )&amp;#34; &amp;amp;&amp;amp; pwd )&amp;#34;&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
-    
   </channel>
 </rss>

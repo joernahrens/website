@@ -1,21 +1,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Posts on Jörn Ahrens</title>
-		<link>/posts/</link>
+		<link>//localhost:1313/posts/</link>
 		<description>Recent content in Posts on Jörn Ahrens</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
+		<managingEditor>mail@joernahrens.de (Jörn Ahrens)</managingEditor>
+		<webMaster>mail@joernahrens.de (Jörn Ahrens)</webMaster>
 		<lastBuildDate>Wed, 13 May 2020 16:41:45 +0200</lastBuildDate>
-		<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
 		
 		<item>
 			<title>Android Window Insets</title>
-			<link>/posts/android-window-insets/</link>
+			<link>//localhost:1313/posts/android-window-insets/</link>
 			<pubDate>Wed, 13 May 2020 16:41:45 +0200</pubDate>
-			
-			<guid>/posts/android-window-insets/</guid>
-			<description>Please keep this in mind forever: https://chris.banes.dev/talks/2017/becoming-a-master-window-fitter-lon/
-Good talk about how to draw content below status and navigation bar. Also covers window insets.</description>
+			<author>mail@joernahrens.de (Jörn Ahrens)</author>
+			<guid>//localhost:1313/posts/android-window-insets/</guid>
+			<description><![CDATA[%!s(<nil>)]]></description>
 			<content type="html"><![CDATA[<p>Please keep this in mind forever: <a href="https://chris.banes.dev/talks/2017/becoming-a-master-window-fitter-lon/">https://chris.banes.dev/talks/2017/becoming-a-master-window-fitter-lon/</a></p>
 <p>Good talk about how to draw content below status and navigation bar. Also covers <strong>window insets</strong>.</p>
 ]]></content>
@@ -23,15 +24,11 @@ Good talk about how to draw content below status and navigation bar. Also covers
 		
 		<item>
 			<title>Dark Mode Hidden</title>
-			<link>/posts/dark-mode-hidden/</link>
+			<link>//localhost:1313/posts/dark-mode-hidden/</link>
 			<pubDate>Fri, 21 Feb 2020 15:37:30 +0100</pubDate>
-			
-			<guid>/posts/dark-mode-hidden/</guid>
-			<description>The dark mode setting for &amp;ldquo;Depend on time&amp;rdquo; is gone, but still there.
-Thanks to: https://www.androidpolice.com/2019/03/13/android-q-beta-doesnt-have-a-dark-mode-toggle-so-turn-it-off-or-on-before-upgrading/ 🎉
-If you want to enable dark mode, enter: adb shell settings put secure ui_night_mode 2
-If you want to disable dark mode, enter: adb shell settings put secure ui_night_mode 1
-If you want to set it to auto, enter: adb shell settings put secure ui_night_mode 0</description>
+			<author>mail@joernahrens.de (Jörn Ahrens)</author>
+			<guid>//localhost:1313/posts/dark-mode-hidden/</guid>
+			<description><![CDATA[%!s(<nil>)]]></description>
 			<content type="html"><![CDATA[<p>The dark mode setting for &ldquo;Depend on time&rdquo; is gone, but still there.</p>
 <p>Thanks to: <a href="https://www.androidpolice.com/2019/03/13/android-q-beta-doesnt-have-a-dark-mode-toggle-so-turn-it-off-or-on-before-upgrading/">https://www.androidpolice.com/2019/03/13/android-q-beta-doesnt-have-a-dark-mode-toggle-so-turn-it-off-or-on-before-upgrading/</a> 🎉</p>
 <blockquote>
@@ -44,13 +41,11 @@ If you want to set it to auto, enter: adb shell settings put secure ui_night_mod
 		
 		<item>
 			<title>Viewpager2 With Fragments</title>
-			<link>/posts/viewpager2-with-fragments/</link>
+			<link>//localhost:1313/posts/viewpager2-with-fragments/</link>
 			<pubDate>Thu, 30 Jan 2020 09:19:13 +0100</pubDate>
-			
-			<guid>/posts/viewpager2-with-fragments/</guid>
-			<description>Just a note to my future me, since I saw a weird behavior of ViewPager2 together with a TabLayout and a FragmentStateAdapter.
-The default behavior seems to be, not to &amp;ldquo;warm up&amp;rdquo; the next fragments. To achieve this, set:
-yourViewPager.offscreenPageLimit = 1 You can of course set higher numbers, which will cause more fragments to be preloaded.</description>
+			<author>mail@joernahrens.de (Jörn Ahrens)</author>
+			<guid>//localhost:1313/posts/viewpager2-with-fragments/</guid>
+			<description><![CDATA[%!s(<nil>)]]></description>
 			<content type="html"><![CDATA[<p>Just a note to my future me, since I saw a weird behavior of <a href="https://developer.android.com/reference/androidx/viewpager2/widget/ViewPager2.html">ViewPager2</a> together with a <code>TabLayout</code> and a <code>FragmentStateAdapter</code>.</p>
 <p>The default behavior seems to be, not to &ldquo;warm up&rdquo; the next fragments. To achieve this, set:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-kotlin" data-lang="kotlin"><span style="display:flex;"><span>yourViewPager.offscreenPageLimit = <span style="color:#ae81ff">1</span>
@@ -60,12 +55,11 @@ yourViewPager.offscreenPageLimit = 1 You can of course set higher numbers, which
 		
 		<item>
 			<title>A couple of scripts for Emulator in the CI system</title>
-			<link>/posts/genymotion-to-emulator/</link>
+			<link>//localhost:1313/posts/genymotion-to-emulator/</link>
 			<pubDate>Mon, 23 Dec 2019 13:55:15 +0100</pubDate>
-			
-			<guid>/posts/genymotion-to-emulator/</guid>
-			<description>Follow this path: Our Journey from Genymotion to the Android Emulator
-This contains a couple of useful scripts to automate AVD management and such.</description>
+			<author>mail@joernahrens.de (Jörn Ahrens)</author>
+			<guid>//localhost:1313/posts/genymotion-to-emulator/</guid>
+			<description><![CDATA[%!s(<nil>)]]></description>
 			<content type="html"><![CDATA[<p>Follow this path: <a href="https://pspdfkit.com/blog/2019/our-journey-from-genymotion-to-the-android-emulator/">Our Journey from Genymotion to the Android Emulator</a></p>
 <p>This contains a couple of useful scripts to automate AVD management and such.</p>
 ]]></content>
@@ -73,13 +67,11 @@ This contains a couple of useful scripts to automate AVD management and such.</d
 		
 		<item>
 			<title>Android Screenshot Script</title>
-			<link>/posts/android-screenshot-script/</link>
+			<link>//localhost:1313/posts/android-screenshot-script/</link>
 			<pubDate>Mon, 19 Mar 2018 20:51:41 +0100</pubDate>
-			
-			<guid>/posts/android-screenshot-script/</guid>
-			<description>Currently I&amp;rsquo;m trying a lot of automated UI testing on emulators.
-This could be really helpful in the near future:
-adb-screenshot.sh</description>
+			<author>mail@joernahrens.de (Jörn Ahrens)</author>
+			<guid>//localhost:1313/posts/android-screenshot-script/</guid>
+			<description><![CDATA[%!s(<nil>)]]></description>
 			<content type="html"><![CDATA[<p>Currently I&rsquo;m trying a lot of automated UI testing on emulators.</p>
 <p>This could be really helpful in the near future:</p>
 <p><a href="https://gist.github.com/hkurokawa/75b44564cc1491b5f4a2">adb-screenshot.sh</a></p>
@@ -88,12 +80,11 @@ adb-screenshot.sh</description>
 		
 		<item>
 			<title>Ktor - Server Framework</title>
-			<link>/posts/ktor/</link>
+			<link>//localhost:1313/posts/ktor/</link>
 			<pubDate>Fri, 26 Jan 2018 19:36:50 +0100</pubDate>
-			
-			<guid>/posts/ktor/</guid>
-			<description>Just wanted to note ktor, a really nice kotlin framework to easily create server applications. For example, defining a REST API, looks as simple as this:
-install(Routing) { get(&amp;#34;/foo&amp;#34;) { call.respondText(&amp;#34;bar&amp;#34;) } route(&amp;#34;api&amp;#34;) { intercept(ApplicationCallPipeline.Infrastructure) { AuthCheckInterceptor.intercept(this) } route(&amp;#34;cars&amp;#34;) { get { ListCarsHandler().doIt(this) } } } } Check their website or the github page</description>
+			<author>mail@joernahrens.de (Jörn Ahrens)</author>
+			<guid>//localhost:1313/posts/ktor/</guid>
+			<description><![CDATA[%!s(<nil>)]]></description>
 			<content type="html"><![CDATA[<p>Just wanted to note ktor, a really nice kotlin framework to easily create server applications. For example, defining a REST API, looks as simple as this:</p>
 <pre tabindex="0"><code>install(Routing) {
     get(&#34;/foo&#34;) {
@@ -116,12 +107,11 @@ install(Routing) { get(&amp;#34;/foo&amp;#34;) { call.respondText(&amp;#34;bar&a
 		
 		<item>
 			<title>Dart Client Generator for swagger</title>
-			<link>/posts/dart-swagger/</link>
+			<link>//localhost:1313/posts/dart-swagger/</link>
 			<pubDate>Tue, 23 Jan 2018 20:42:54 +0100</pubDate>
-			
-			<guid>/posts/dart-swagger/</guid>
-			<description>I&amp;rsquo;m really proud that I successfully did my first open-source contribution to a &amp;ldquo;relevant&amp;rdquo; project. While trying to create a swagger client library for the dart language, I noticed, that the generated code wasn&amp;rsquo;t working for Flutter. The reason for this is the lack of dart:mirrors support in the flutter framework. The generated code was using dartson which relies on dart:mirrors.
-I reworked the dart client that it doesn&amp;rsquo;t rely on dartson, but works without any further dependencies (pull request).</description>
+			<author>mail@joernahrens.de (Jörn Ahrens)</author>
+			<guid>//localhost:1313/posts/dart-swagger/</guid>
+			<description><![CDATA[%!s(<nil>)]]></description>
 			<content type="html"><![CDATA[<p>I&rsquo;m really proud that I successfully did my first open-source contribution to a &ldquo;relevant&rdquo; project. While trying to create a <a href="https://swagger.io/">swagger</a> client library for the dart language, I noticed, that the generated code wasn&rsquo;t working for <a href="https://flutter.io/">Flutter</a>. The reason for this is the lack of <a href="https://api.dartlang.org/stable/1.24.3/dart-mirrors/dart-mirrors-library.html">dart:mirrors</a> support in the flutter framework. The generated code was using <a href="https://pub.dartlang.org/packages/dartson">dartson</a> which relies on <code>dart:mirrors</code>.</p>
 <p>I reworked the dart client that it doesn&rsquo;t rely on dartson, but works without any further dependencies (<a href="https://github.com/swagger-api/swagger-codegen/pull/7418">pull request</a>).</p>
 <p><img src="https://s3-eu-central-1.amazonaws.com/android-recollections-assets/wp-content/uploads/2018/01/23221426/Screen-Shot-2018-01-23-at-22.11.36.png" alt="Screenshot pull request" /></p>
@@ -131,11 +121,11 @@ I reworked the dart client that it doesn&amp;rsquo;t rely on dartson, but works 
 		
 		<item>
 			<title>Git Aliases</title>
-			<link>/posts/git-aliases/</link>
+			<link>//localhost:1313/posts/git-aliases/</link>
 			<pubDate>Tue, 23 Jan 2018 20:39:12 +0100</pubDate>
-			
-			<guid>/posts/git-aliases/</guid>
-			<description>Shell aliases $ alias | grep git alias delete-merged-branches=&amp;#39;git branch --merged | grep -v &amp;#39;\&amp;#39;&amp;#39;\*&amp;#39;\&amp;#39;&amp;#39; | xargs -n 1 git branch -d&amp;#39; alias g=&amp;#39;git status&amp;#39; alias gcam=&amp;#39;git commit -am&amp;#39; alias gd=&amp;#39;git diff&amp;#39; alias gf=&amp;#39;git fetch&amp;#39; alias git=&amp;#39;hub&amp;#39; alias gl=&amp;#39;git pull --prune&amp;#39; alias gp=&amp;#39;git push&amp;#39; alias gpoh=&amp;#39;git push -u origin HEAD&amp;#39; alias gpr=&amp;#39;git pull-request&amp;#39; git aliases [alias] co = checkout please = push --force-with-lease amend = commit --amend --no-edit unstage = reset - </description>
+			<author>mail@joernahrens.de (Jörn Ahrens)</author>
+			<guid>//localhost:1313/posts/git-aliases/</guid>
+			<description><![CDATA[%!s(<nil>)]]></description>
 			<content type="html"><![CDATA[<h3 id="shell-aliases">Shell aliases</h3>
 <pre tabindex="0"><code>$ alias | grep git
 alias delete-merged-branches=&#39;git branch --merged | grep -v &#39;\&#39;&#39;\*&#39;\&#39;&#39; | xargs -n 1 git branch -d&#39;
@@ -159,12 +149,11 @@ unstage = reset -
 		
 		<item>
 			<title>Bash get current directory</title>
-			<link>/posts/bash-current-dir/</link>
+			<link>//localhost:1313/posts/bash-current-dir/</link>
 			<pubDate>Thu, 30 Mar 2017 22:35:51 +0100</pubDate>
-			
-			<guid>/posts/bash-current-dir/</guid>
-			<description>Bash, get directory where the script is located:
-SCRIPT_SRC_DIR=&amp;#34;$( cd &amp;#34;$( dirname &amp;#34;${BASH_SOURCE[0]}&amp;#34; )&amp;#34; &amp;amp;&amp;amp; pwd )&amp;#34; </description>
+			<author>mail@joernahrens.de (Jörn Ahrens)</author>
+			<guid>//localhost:1313/posts/bash-current-dir/</guid>
+			<description><![CDATA[%!s(<nil>)]]></description>
 			<content type="html"><![CDATA[<p>Bash, get directory where the script is located:</p>
 <pre tabindex="0"><code>SCRIPT_SRC_DIR=&#34;$( cd &#34;$( dirname &#34;${BASH_SOURCE[0]}&#34; )&#34; &amp;&amp; pwd )&#34;
 </code></pre>]]></content>
@@ -172,12 +161,11 @@ SCRIPT_SRC_DIR=&amp;#34;$( cd &amp;#34;$( dirname &amp;#34;${BASH_SOURCE[0]}&amp
 		
 		<item>
 			<title>Create an AVD from CLI</title>
-			<link>/posts/avd-from-commandline/</link>
+			<link>//localhost:1313/posts/avd-from-commandline/</link>
 			<pubDate>Wed, 15 Mar 2017 10:55:59 +0100</pubDate>
-			
-			<guid>/posts/avd-from-commandline/</guid>
-			<description>I always struggle googling this, so that&amp;rsquo;s why it&amp;rsquo;s here for my future me:
-$ ~/.android-sdk/tools/android create avd -n api-22 --target &amp;#34;Google Inc.:Google APIs:22&amp;#34; -b google_apis/x86_64 --force -c 512M -s 720x1280 $ echo &amp;#34;disk.dataPartition.size=1024MB&amp;#34; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;#34;hw.lcd.density=280&amp;#34; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;#34;hw.ramSize=1536&amp;#34; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;#34;hw.keyboard=yes&amp;#34; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;#34;showDeviceFrame=no&amp;#34; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;#34;skin.dynamic=yes&amp;#34; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;#34;skin.path=_no_skin&amp;#34; &amp;gt;&amp;gt; ~/.android/avd/api-22.avd/config.ini $ echo &amp;#34;skin.path.backup=_no_skin&amp;#34; &amp;gt;&amp;gt; ~/.</description>
+			<author>mail@joernahrens.de (Jörn Ahrens)</author>
+			<guid>//localhost:1313/posts/avd-from-commandline/</guid>
+			<description><![CDATA[%!s(<nil>)]]></description>
 			<content type="html"><![CDATA[<p>I always struggle googling this, so that&rsquo;s why it&rsquo;s here for my future me:</p>
 <pre tabindex="0"><code>$ ~/.android-sdk/tools/android create avd -n api-22 --target &#34;Google Inc.:Google APIs:22&#34; -b google_apis/x86_64 --force -c 512M -s 720x1280
 $ echo &#34;disk.dataPartition.size=1024MB&#34; &gt;&gt; ~/.android/avd/api-22.avd/config.ini
@@ -194,12 +182,11 @@ $ echo &#34;avd.ini.encoding=UTF-8&#34; &gt;&gt; ~/.android/avd/api-22.avd/confi
 		
 		<item>
 			<title>6 tips to speed up your Gradle build</title>
-			<link>/posts/speed-up-gradle/</link>
+			<link>//localhost:1313/posts/speed-up-gradle/</link>
 			<pubDate>Sat, 27 Feb 2016 09:50:18 +0100</pubDate>
-			
-			<guid>/posts/speed-up-gradle/</guid>
-			<description>Some helpful tips. And additionally try --offline..
-6 tips to speed up your Gradle build</description>
+			<author>mail@joernahrens.de (Jörn Ahrens)</author>
+			<guid>//localhost:1313/posts/speed-up-gradle/</guid>
+			<description><![CDATA[%!s(<nil>)]]></description>
 			<content type="html"><![CDATA[<p>Some helpful tips. And additionally try <code>--offline</code>..</p>
 <p><a href="https://medium.com/@shelajev/6-tips-to-speed-up-your-gradle-build-3d98791d3df9#.gnibwralv%22%3Ehttps://medium.com/@shelajev/6-tips-to-speed-up-your-gradle-build-3d98791d3df9#.gnibwralv">6 tips to speed up your Gradle build</a></p>
 ]]></content>
@@ -207,24 +194,22 @@ $ echo &#34;avd.ini.encoding=UTF-8&#34; &gt;&gt; ~/.android/avd/api-22.avd/confi
 		
 		<item>
 			<title>Change isn&#39;t free</title>
-			<link>/posts/change-isnt-free/</link>
+			<link>//localhost:1313/posts/change-isnt-free/</link>
 			<pubDate>Sun, 01 Nov 2015 19:44:27 +0100</pubDate>
-			
-			<guid>/posts/change-isnt-free/</guid>
-			<description>http://www.mountaingoatsoftware.com/blog/change-isnt-free</description>
+			<author>mail@joernahrens.de (Jörn Ahrens)</author>
+			<guid>//localhost:1313/posts/change-isnt-free/</guid>
+			<description><![CDATA[%!s(<nil>)]]></description>
 			<content type="html"><![CDATA[<p><a href="http://www.mountaingoatsoftware.com/blog/change-isnt-free">http://www.mountaingoatsoftware.com/blog/change-isnt-free</a></p>
 ]]></content>
 		</item>
 		
 		<item>
 			<title>PO and technical debt</title>
-			<link>/posts/po-tech-debt/</link>
+			<link>//localhost:1313/posts/po-tech-debt/</link>
 			<pubDate>Thu, 29 Oct 2015 19:41:53 +0100</pubDate>
-			
-			<guid>/posts/po-tech-debt/</guid>
-			<description>Nice read:
-http://www.agileadvice.com/2015/10/24/howtoapplyagile/question-product-owner-and-technical-debt/
-As a product owner, what are the best ways to record technical debt and what are some approaches to prioritizing that work amid the continuous delivery of working software?</description>
+			<author>mail@joernahrens.de (Jörn Ahrens)</author>
+			<guid>//localhost:1313/posts/po-tech-debt/</guid>
+			<description><![CDATA[%!s(<nil>)]]></description>
 			<content type="html"><![CDATA[<p>Nice read:<br />
 <a href="http://www.agileadvice.com/2015/10/24/howtoapplyagile/question-product-owner-and-technical-debt/">http://www.agileadvice.com/2015/10/24/howtoapplyagile/question-product-owner-and-technical-debt/</a></p>
 <blockquote>
