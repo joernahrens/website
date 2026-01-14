@@ -7,5 +7,5 @@ update-theme:
 prepare:
 	git submodule update --init themes/hermit-v2
 
-run:
+run: build
 	hugo server -D

@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Emulator on Jörn Ahrens</title>
-    <link>/tags/emulator/</link>
+    <link>//localhost:1313/tags/emulator/</link>
     <description>Recent content in Emulator on Jörn Ahrens</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <managingEditor>mail@joernahrens.de (Jörn Ahrens)</managingEditor>
     <webMaster>mail@joernahrens.de (Jörn Ahrens)</webMaster>
     <lastBuildDate>Mon, 23 Dec 2019 13:55:15 +0100</lastBuildDate>
-    <atom:link href="/tags/emulator/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/emulator/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A couple of scripts for Emulator in the CI system</title>
-      <link>/posts/genymotion-to-emulator/</link>
+      <link>//localhost:1313/posts/genymotion-to-emulator/</link>
       <pubDate>Mon, 23 Dec 2019 13:55:15 +0100</pubDate><author>mail@joernahrens.de (Jörn Ahrens)</author>
-      <guid>/posts/genymotion-to-emulator/</guid>
+      <guid>//localhost:1313/posts/genymotion-to-emulator/</guid>
       <description>&lt;p&gt;Follow this path: &lt;a href=&#34;https://pspdfkit.com/blog/2019/our-journey-from-genymotion-to-the-android-emulator/&#34;&gt;Our Journey from Genymotion to the Android Emulator&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;This contains a couple of useful scripts to automate AVD management and such.&lt;/p&gt;</description>
     </item>
   </channel>

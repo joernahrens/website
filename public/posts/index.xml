@@ -1,21 +1,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Posts on Jörn Ahrens</title>
-		<link>/posts/</link>
+		<link>//localhost:1313/posts/</link>
 		<description>Recent content in Posts on Jörn Ahrens</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<managingEditor>mail@joernahrens.de (Jörn Ahrens)</managingEditor>
 		<webMaster>mail@joernahrens.de (Jörn Ahrens)</webMaster>
 		<lastBuildDate>Wed, 13 May 2020 16:41:45 +0200</lastBuildDate>
-		<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
 		
 		<item>
 			<title>Android Window Insets</title>
-			<link>/posts/android-window-insets/</link>
+			<link>//localhost:1313/posts/android-window-insets/</link>
 			<pubDate>Wed, 13 May 2020 16:41:45 +0200</pubDate>
 			<author>mail@joernahrens.de (Jörn Ahrens)</author>
-			<guid>/posts/android-window-insets/</guid>
+			<guid>//localhost:1313/posts/android-window-insets/</guid>
 			<description><![CDATA[%!s(<nil>)]]></description>
 			<content type="html"><![CDATA[<p>Please keep this in mind forever: <a href="https://chris.banes.dev/talks/2017/becoming-a-master-window-fitter-lon/">https://chris.banes.dev/talks/2017/becoming-a-master-window-fitter-lon/</a></p>
 <p>Good talk about how to draw content below status and navigation bar. Also covers <strong>window insets</strong>.</p>
@@ -24,10 +24,10 @@
 		
 		<item>
 			<title>Dark Mode Hidden</title>
-			<link>/posts/dark-mode-hidden/</link>
+			<link>//localhost:1313/posts/dark-mode-hidden/</link>
 			<pubDate>Fri, 21 Feb 2020 15:37:30 +0100</pubDate>
 			<author>mail@joernahrens.de (Jörn Ahrens)</author>
-			<guid>/posts/dark-mode-hidden/</guid>
+			<guid>//localhost:1313/posts/dark-mode-hidden/</guid>
 			<description><![CDATA[%!s(<nil>)]]></description>
 			<content type="html"><![CDATA[<p>The dark mode setting for &ldquo;Depend on time&rdquo; is gone, but still there.</p>
 <p>Thanks to: <a href="https://www.androidpolice.com/2019/03/13/android-q-beta-doesnt-have-a-dark-mode-toggle-so-turn-it-off-or-on-before-upgrading/">https://www.androidpolice.com/2019/03/13/android-q-beta-doesnt-have-a-dark-mode-toggle-so-turn-it-off-or-on-before-upgrading/</a> 🎉</p>
@@ -41,10 +41,10 @@
 		
 		<item>
 			<title>Viewpager2 With Fragments</title>
-			<link>/posts/viewpager2-with-fragments/</link>
+			<link>//localhost:1313/posts/viewpager2-with-fragments/</link>
 			<pubDate>Thu, 30 Jan 2020 09:19:13 +0100</pubDate>
 			<author>mail@joernahrens.de (Jörn Ahrens)</author>
-			<guid>/posts/viewpager2-with-fragments/</guid>
+			<guid>//localhost:1313/posts/viewpager2-with-fragments/</guid>
 			<description><![CDATA[%!s(<nil>)]]></description>
 			<content type="html"><![CDATA[<p>Just a note to my future me, since I saw a weird behavior of <a href="https://developer.android.com/reference/androidx/viewpager2/widget/ViewPager2.html">ViewPager2</a> together with a <code>TabLayout</code> and a <code>FragmentStateAdapter</code>.</p>
 <p>The default behavior seems to be, not to &ldquo;warm up&rdquo; the next fragments. To achieve this, set:</p>
@@ -55,10 +55,10 @@
 		
 		<item>
 			<title>A couple of scripts for Emulator in the CI system</title>
-			<link>/posts/genymotion-to-emulator/</link>
+			<link>//localhost:1313/posts/genymotion-to-emulator/</link>
 			<pubDate>Mon, 23 Dec 2019 13:55:15 +0100</pubDate>
 			<author>mail@joernahrens.de (Jörn Ahrens)</author>
-			<guid>/posts/genymotion-to-emulator/</guid>
+			<guid>//localhost:1313/posts/genymotion-to-emulator/</guid>
 			<description><![CDATA[%!s(<nil>)]]></description>
 			<content type="html"><![CDATA[<p>Follow this path: <a href="https://pspdfkit.com/blog/2019/our-journey-from-genymotion-to-the-android-emulator/">Our Journey from Genymotion to the Android Emulator</a></p>
 <p>This contains a couple of useful scripts to automate AVD management and such.</p>
@@ -67,10 +67,10 @@
 		
 		<item>
 			<title>Android Screenshot Script</title>
-			<link>/posts/android-screenshot-script/</link>
+			<link>//localhost:1313/posts/android-screenshot-script/</link>
 			<pubDate>Mon, 19 Mar 2018 20:51:41 +0100</pubDate>
 			<author>mail@joernahrens.de (Jörn Ahrens)</author>
-			<guid>/posts/android-screenshot-script/</guid>
+			<guid>//localhost:1313/posts/android-screenshot-script/</guid>
 			<description><![CDATA[%!s(<nil>)]]></description>
 			<content type="html"><![CDATA[<p>Currently I&rsquo;m trying a lot of automated UI testing on emulators.</p>
 <p>This could be really helpful in the near future:</p>
@@ -80,10 +80,10 @@
 		
 		<item>
 			<title>Ktor - Server Framework</title>
-			<link>/posts/ktor/</link>
+			<link>//localhost:1313/posts/ktor/</link>
 			<pubDate>Fri, 26 Jan 2018 19:36:50 +0100</pubDate>
 			<author>mail@joernahrens.de (Jörn Ahrens)</author>
-			<guid>/posts/ktor/</guid>
+			<guid>//localhost:1313/posts/ktor/</guid>
 			<description><![CDATA[%!s(<nil>)]]></description>
 			<content type="html"><![CDATA[<p>Just wanted to note ktor, a really nice kotlin framework to easily create server applications. For example, defining a REST API, looks as simple as this:</p>
 <pre tabindex="0"><code>install(Routing) {
@@ -107,10 +107,10 @@
 		
 		<item>
 			<title>Dart Client Generator for swagger</title>
-			<link>/posts/dart-swagger/</link>
+			<link>//localhost:1313/posts/dart-swagger/</link>
 			<pubDate>Tue, 23 Jan 2018 20:42:54 +0100</pubDate>
 			<author>mail@joernahrens.de (Jörn Ahrens)</author>
-			<guid>/posts/dart-swagger/</guid>
+			<guid>//localhost:1313/posts/dart-swagger/</guid>
 			<description><![CDATA[%!s(<nil>)]]></description>
 			<content type="html"><![CDATA[<p>I&rsquo;m really proud that I successfully did my first open-source contribution to a &ldquo;relevant&rdquo; project. While trying to create a <a href="https://swagger.io/">swagger</a> client library for the dart language, I noticed, that the generated code wasn&rsquo;t working for <a href="https://flutter.io/">Flutter</a>. The reason for this is the lack of <a href="https://api.dartlang.org/stable/1.24.3/dart-mirrors/dart-mirrors-library.html">dart:mirrors</a> support in the flutter framework. The generated code was using <a href="https://pub.dartlang.org/packages/dartson">dartson</a> which relies on <code>dart:mirrors</code>.</p>
 <p>I reworked the dart client that it doesn&rsquo;t rely on dartson, but works without any further dependencies (<a href="https://github.com/swagger-api/swagger-codegen/pull/7418">pull request</a>).</p>
@@ -121,10 +121,10 @@
 		
 		<item>
 			<title>Git Aliases</title>
-			<link>/posts/git-aliases/</link>
+			<link>//localhost:1313/posts/git-aliases/</link>
 			<pubDate>Tue, 23 Jan 2018 20:39:12 +0100</pubDate>
 			<author>mail@joernahrens.de (Jörn Ahrens)</author>
-			<guid>/posts/git-aliases/</guid>
+			<guid>//localhost:1313/posts/git-aliases/</guid>
 			<description><![CDATA[%!s(<nil>)]]></description>
 			<content type="html"><![CDATA[<h3 id="shell-aliases">Shell aliases</h3>
 <pre tabindex="0"><code>$ alias | grep git
@@ -149,10 +149,10 @@ unstage = reset -
 		
 		<item>
 			<title>Bash get current directory</title>
-			<link>/posts/bash-current-dir/</link>
+			<link>//localhost:1313/posts/bash-current-dir/</link>
 			<pubDate>Thu, 30 Mar 2017 22:35:51 +0100</pubDate>
 			<author>mail@joernahrens.de (Jörn Ahrens)</author>
-			<guid>/posts/bash-current-dir/</guid>
+			<guid>//localhost:1313/posts/bash-current-dir/</guid>
 			<description><![CDATA[%!s(<nil>)]]></description>
 			<content type="html"><![CDATA[<p>Bash, get directory where the script is located:</p>
 <pre tabindex="0"><code>SCRIPT_SRC_DIR=&#34;$( cd &#34;$( dirname &#34;${BASH_SOURCE[0]}&#34; )&#34; &amp;&amp; pwd )&#34;
@@ -161,10 +161,10 @@ unstage = reset -
 		
 		<item>
 			<title>Create an AVD from CLI</title>
-			<link>/posts/avd-from-commandline/</link>
+			<link>//localhost:1313/posts/avd-from-commandline/</link>
 			<pubDate>Wed, 15 Mar 2017 10:55:59 +0100</pubDate>
 			<author>mail@joernahrens.de (Jörn Ahrens)</author>
-			<guid>/posts/avd-from-commandline/</guid>
+			<guid>//localhost:1313/posts/avd-from-commandline/</guid>
 			<description><![CDATA[%!s(<nil>)]]></description>
 			<content type="html"><![CDATA[<p>I always struggle googling this, so that&rsquo;s why it&rsquo;s here for my future me:</p>
 <pre tabindex="0"><code>$ ~/.android-sdk/tools/android create avd -n api-22 --target &#34;Google Inc.:Google APIs:22&#34; -b google_apis/x86_64 --force -c 512M -s 720x1280
@@ -182,10 +182,10 @@ $ echo &#34;avd.ini.encoding=UTF-8&#34; &gt;&gt; ~/.android/avd/api-22.avd/confi
 		
 		<item>
 			<title>6 tips to speed up your Gradle build</title>
-			<link>/posts/speed-up-gradle/</link>
+			<link>//localhost:1313/posts/speed-up-gradle/</link>
 			<pubDate>Sat, 27 Feb 2016 09:50:18 +0100</pubDate>
 			<author>mail@joernahrens.de (Jörn Ahrens)</author>
-			<guid>/posts/speed-up-gradle/</guid>
+			<guid>//localhost:1313/posts/speed-up-gradle/</guid>
 			<description><![CDATA[%!s(<nil>)]]></description>
 			<content type="html"><![CDATA[<p>Some helpful tips. And additionally try <code>--offline</code>..</p>
 <p><a href="https://medium.com/@shelajev/6-tips-to-speed-up-your-gradle-build-3d98791d3df9#.gnibwralv%22%3Ehttps://medium.com/@shelajev/6-tips-to-speed-up-your-gradle-build-3d98791d3df9#.gnibwralv">6 tips to speed up your Gradle build</a></p>
@@ -194,10 +194,10 @@ $ echo &#34;avd.ini.encoding=UTF-8&#34; &gt;&gt; ~/.android/avd/api-22.avd/confi
 		
 		<item>
 			<title>Change isn&#39;t free</title>
-			<link>/posts/change-isnt-free/</link>
+			<link>//localhost:1313/posts/change-isnt-free/</link>
 			<pubDate>Sun, 01 Nov 2015 19:44:27 +0100</pubDate>
 			<author>mail@joernahrens.de (Jörn Ahrens)</author>
-			<guid>/posts/change-isnt-free/</guid>
+			<guid>//localhost:1313/posts/change-isnt-free/</guid>
 			<description><![CDATA[%!s(<nil>)]]></description>
 			<content type="html"><![CDATA[<p><a href="http://www.mountaingoatsoftware.com/blog/change-isnt-free">http://www.mountaingoatsoftware.com/blog/change-isnt-free</a></p>
 ]]></content>
@@ -205,10 +205,10 @@ $ echo &#34;avd.ini.encoding=UTF-8&#34; &gt;&gt; ~/.android/avd/api-22.avd/confi
 		
 		<item>
 			<title>PO and technical debt</title>
-			<link>/posts/po-tech-debt/</link>
+			<link>//localhost:1313/posts/po-tech-debt/</link>
 			<pubDate>Thu, 29 Oct 2015 19:41:53 +0100</pubDate>
 			<author>mail@joernahrens.de (Jörn Ahrens)</author>
-			<guid>/posts/po-tech-debt/</guid>
+			<guid>//localhost:1313/posts/po-tech-debt/</guid>
 			<description><![CDATA[%!s(<nil>)]]></description>
 			<content type="html"><![CDATA[<p>Nice read:<br />
 <a href="http://www.agileadvice.com/2015/10/24/howtoapplyagile/question-product-owner-and-technical-debt/">http://www.agileadvice.com/2015/10/24/howtoapplyagile/question-product-owner-and-technical-debt/</a></p>

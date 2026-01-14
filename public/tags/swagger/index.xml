@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Swagger on Jörn Ahrens</title>
-    <link>/tags/swagger/</link>
+    <link>//localhost:1313/tags/swagger/</link>
     <description>Recent content in Swagger on Jörn Ahrens</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <managingEditor>mail@joernahrens.de (Jörn Ahrens)</managingEditor>
     <webMaster>mail@joernahrens.de (Jörn Ahrens)</webMaster>
     <lastBuildDate>Tue, 23 Jan 2018 20:42:54 +0100</lastBuildDate>
-    <atom:link href="/tags/swagger/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/swagger/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dart Client Generator for swagger</title>
-      <link>/posts/dart-swagger/</link>
+      <link>//localhost:1313/posts/dart-swagger/</link>
       <pubDate>Tue, 23 Jan 2018 20:42:54 +0100</pubDate><author>mail@joernahrens.de (Jörn Ahrens)</author>
-      <guid>/posts/dart-swagger/</guid>
+      <guid>//localhost:1313/posts/dart-swagger/</guid>
       <description>&lt;p&gt;I&amp;rsquo;m really proud that I successfully did my first open-source contribution to a &amp;ldquo;relevant&amp;rdquo; project. While trying to create a &lt;a href=&#34;https://swagger.io/&#34;&gt;swagger&lt;/a&gt; client library for the dart language, I noticed, that the generated code wasn&amp;rsquo;t working for &lt;a href=&#34;https://flutter.io/&#34;&gt;Flutter&lt;/a&gt;. The reason for this is the lack of &lt;a href=&#34;https://api.dartlang.org/stable/1.24.3/dart-mirrors/dart-mirrors-library.html&#34;&gt;dart:mirrors&lt;/a&gt; support in the flutter framework. The generated code was using &lt;a href=&#34;https://pub.dartlang.org/packages/dartson&#34;&gt;dartson&lt;/a&gt; which relies on &lt;code&gt;dart:mirrors&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;p&gt;I reworked the dart client that it doesn&amp;rsquo;t rely on dartson, but works without any further dependencies (&lt;a href=&#34;https://github.com/swagger-api/swagger-codegen/pull/7418&#34;&gt;pull request&lt;/a&gt;).&lt;/p&gt;</description>
     </item>
   </channel>
